@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import re
 import numpy as np
+import openpyxl
 
 # df = pd.read_excel("PADU_PGK Makanan, Beta & Bukan Makanan 2022.xlsx", sheet_name='Data2019')
 food_PLI = pd.read_excel("PADU_PGK Makanan, Beta & Bukan Makanan 2022.xlsx", sheet_name='Data PGK Makanan')
