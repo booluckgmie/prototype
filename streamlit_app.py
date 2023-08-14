@@ -47,7 +47,7 @@ if __name__ == '__main__':
 # Create interactive widgets
 state_dropdown = st.selectbox('State:', ['select', 'Johor', 'Kedah', 'Kelantan', 'Malaysia', 'Melaka', 'Negeri Sembilan', 'Pahang', 'Perak', 'Perlis', 'Pulau Pinang', 'Sabah', 'Sarawak', 'Selangor', 'Terengganu', 'W.P. Kuala Lumpur', 'W.P. Labuan', 'W.P. Putrajaya'])
 strata_dropdown = st.selectbox('Strata:', ['select', 'Bandar', 'Luar Bandar'])
-age_dropdown = st.selectbox('Age:', ['select', '1-3 tahun', '4-6 tahun', '6-8 bulan', '7-9 tahun', '9-11 bulan', '10-12 tahun', '13-15 tahun', '16-<18 tahun', '18-29 tahun', '30-59 tahun', '≥60 tahun'])
+age_dropdown = st.selectbox('Age:', ['select', '6-8 bulan', '9-11 bulan', '1-3 tahun', '4-6 tahun', '7-9 tahun', '10-12 tahun', '13-15 tahun', '16-<18 tahun', '18-29 tahun', '30-59 tahun', '≥60 tahun'])
 gender_dropdown = st.selectbox('Gender:', ['select', 'Lelaki', 'Perempuan'])
 pendapatan_input = st.number_input('Pendapatan:')
 
