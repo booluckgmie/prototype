@@ -4,7 +4,7 @@ import re
 import numpy as np
 
 # df = pd.read_excel("PADU_PGK Makanan, Beta & Bukan Makanan 2022.xlsx", sheet_name='Data2019')
-food_PLI = pd.read_excel("pgk/PADU_PGK Makanan, Beta & Bukan Makanan 2022.xlsx", sheet_name='Data PGK Makanan')
+food_PLI = pd.read_excel("PADU_PGK Makanan, Beta & Bukan Makanan 2022.xlsx", sheet_name='Data PGK Makanan')
 food_PLI.columns = ['Kumpulan Umur', 'Umur', 'Kalori', 'Negeri', 'Strata', 'totalFood_PLI']
 # Assuming food_PLI is your DataFrame
 def map_gender(row):
@@ -22,7 +22,7 @@ food_PLI['totalFood_PLI'] = food_PLI['totalFood_PLI'].replace([np.nan, np.inf, -
 
 
 # df = pd.read_excel("PADU_PGK Makanan, Beta & Bukan Makanan 2022.xlsx", sheet_name='Data2019')
-nonfood_PLI = pd.read_excel("pgk/PADU_PGK Makanan, Beta & Bukan Makanan 2022.xlsx", sheet_name='Data PGK B.Makanan (p)')
+nonfood_PLI = pd.read_excel("PADU_PGK Makanan, Beta & Bukan Makanan 2022.xlsx", sheet_name='Data PGK B.Makanan (p)')
 nonfood_PLI = nonfood_PLI[['Negeri', 'Strata', 'p_cloth', 'p_rent', 'p_durable', 'p_transport', 'p_other', 'totalNP_PLI']]
 nonfood_PLI['totalNP_PLI'] = nonfood_PLI['totalNP_PLI'].astype(int)
 nonfood_PLI.columns = ['Negeri', 'Strata', 'p_cloth', 'p_rent', 'p_durable', 'p_transport', 'p_other', 'totalNFood_PLI']
