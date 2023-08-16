@@ -28,10 +28,27 @@ food_PLI['Kumpulan Umur'] = food_PLI['Kumpulan Umur'].apply(lambda x: re.sub(r'(
 food_PLI['totalFood_PLI'] = pd.to_numeric(food_PLI['totalFood_PLI'], errors='coerce')
 food_PLI['totalFood_PLI'] = food_PLI['totalFood_PLI'].replace([np.nan, np.inf, -np.inf], 0).astype(int)
 
+# Inject Google Analytics tracking code
+google_analytics_code = """
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-932CZYZZG7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-932CZYZZG7');
+</script>
+"""
+
 # Run the Streamlit app
 if __name__ == '__main__':
     st.title('PLI2022 Individual')
     st.write('Use the interactive widgets to calculate PLI values.')
+    
+    # Inject Google Analytics code
+    st.markdown(google_analytics_code, unsafe_allow_html=True)
+    
     st.sidebar.title('PLI2022 Individual')
     st.sidebar.write('Kalkulator.')
 
