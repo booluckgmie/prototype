@@ -10,7 +10,7 @@ kump_pdptn = pd.read_csv("kump_pdptn2022.csv")
 food_PLI = pd.read_excel("PADU_PGK Makanan, Beta & Bukan Makanan 2022.xlsx", sheet_name='Data PGK Makanan')
 food_PLI.columns = ['Kumpulan Umur', 'Umur', 'Kalori', 'Negeri', 'Strata', 'totalFood_PLI']
 
-nonfood_PLI = pd.read_excel("pgk/PADU_PGK Makanan, Beta & Bukan Makanan 2022.xlsx", sheet_name='Data PGK B.Makanan (p)')
+nonfood_PLI = pd.read_excel("PADU_PGK Makanan, Beta & Bukan Makanan 2022.xlsx", sheet_name='Data PGK B.Makanan (p)')
 nonfood_PLI = nonfood_PLI[['Negeri', 'Strata', 'p_cloth', 'p_rent', 'p_durable', 'p_transport', 'p_other', 'totalNP_PLI']]
 nonfood_PLI.columns = ['Negeri', 'Strata', 'p_cloth', 'p_rent', 'p_durable', 'p_transport', 'p_other', 'totalNFood_PLI']
 
