@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import re
 import numpy as np
+!pip install --upgrade streamlit
 
 # Load dataset from CSV file
 kump_pdptn = pd.read_csv("kump_pdptn2022.csv")
