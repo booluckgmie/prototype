@@ -1,0 +1,749 @@
+Kumpulan Umur,Umur,Kalori,Negeri,Strata,totalFood_PLI,Jantina,NEGERI_CODE,STRATA_CODE,JANTINA_CODE
+Bayi  ,6-8 bulan,570-680,Malaysia,Bandar,25.11,Lelaki,,1,1
+Bayi ,6-8 bulan,570-680,Malaysia,Bandar,25.11,Perempuan,,1,2
+Bayi  ,9-11 bulan,660-720,Malaysia,Bandar,36.58,Lelaki,,1,1
+Bayi ,9-11 bulan,660-720,Malaysia,Bandar,36.58,Perempuan,,1,2
+Kanak-kanak ,1-3 tahun,980,Malaysia,Bandar,139.29,Lelaki,,1,1
+Kanak-kanak  ,1-3 tahun,900,Malaysia,Bandar,139.29,Perempuan,,1,2
+Kanak-kanak ,4-6 tahun,1300,Malaysia,Bandar,204.27,Lelaki,,1,1
+Kanak-kanak  ,4-6 tahun,1210,Malaysia,Bandar,162.07,Perempuan,,1,2
+Kanak-kanak ,7-9 tahun,1750,Malaysia,Bandar,277.62,Lelaki,,1,1
+Kanak-kanak  ,7-9 tahun,1610,Malaysia,Bandar,237.14,Perempuan,,1,2
+Remaja ,10-12 tahun,1930,Malaysia,Bandar,282.76,Lelaki,,1,1
+Remaja ,10-12 tahun,1710,Malaysia,Bandar,280.27,Perempuan,,1,2
+Remaja ,13-15 tahun,2210,Malaysia,Bandar,332.04,Lelaki,,1,1
+Remaja ,13-15 tahun,1810,Malaysia,Bandar,310.74,Perempuan,,1,2
+Remaja ,16-<18 tahun,2340,Malaysia,Bandar,376.51,Lelaki,,1,1
+Remaja ,16-<18 tahun,1890,Malaysia,Bandar,310.97,Perempuan,,1,2
+Dewasa ,18-29 tahun,2240,Malaysia,Bandar,310.12,Lelaki,,1,1
+Dewasa ,18-29 tahun,1840,Malaysia,Bandar,297.21,Perempuan,,1,2
+Dewasa ,30-59 tahun,2190,Malaysia,Bandar,310.12,Lelaki,,1,1
+Dewasa ,30-59 tahun,1900,Malaysia,Bandar,310.12,Perempuan,,1,2
+Warga Emas ,≥60 tahun,2030,Malaysia,Bandar,297.21,Lelaki,,1,1
+Warga Emas ,≥60 tahun,1770,Malaysia,Bandar,294.72,Perempuan,,1,2
+Bayi  ,6-8 bulan,570-680,Malaysia,Luar Bandar,23.55,Lelaki,,2,1
+Bayi ,6-8 bulan,570-680,Malaysia,Luar Bandar,23.55,Perempuan,,2,2
+Bayi  ,9-11 bulan,660-720,Malaysia,Luar Bandar,34.76,Lelaki,,2,1
+Bayi ,9-11 bulan,660-720,Malaysia,Luar Bandar,34.76,Perempuan,,2,2
+Kanak-kanak ,1-3 tahun,980,Malaysia,Luar Bandar,128.71,Lelaki,,2,1
+Kanak-kanak  ,1-3 tahun,900,Malaysia,Luar Bandar,128.71,Perempuan,,2,2
+Kanak-kanak ,4-6 tahun,1300,Malaysia,Luar Bandar,187.15,Lelaki,,2,1
+Kanak-kanak  ,4-6 tahun,1210,Malaysia,Luar Bandar,145.28,Perempuan,,2,2
+Kanak-kanak ,7-9 tahun,1750,Malaysia,Luar Bandar,261.21,Lelaki,,2,1
+Kanak-kanak  ,7-9 tahun,1610,Malaysia,Luar Bandar,222.44,Perempuan,,2,2
+Remaja ,10-12 tahun,1930,Malaysia,Luar Bandar,268.85,Lelaki,,2,1
+Remaja ,10-12 tahun,1710,Malaysia,Luar Bandar,266.3,Perempuan,,2,2
+Remaja ,13-15 tahun,2210,Malaysia,Luar Bandar,323.88,Lelaki,,2,1
+Remaja ,13-15 tahun,1810,Malaysia,Luar Bandar,295.2,Perempuan,,2,2
+Remaja ,16-<18 tahun,2340,Malaysia,Luar Bandar,371.9,Lelaki,,2,1
+Remaja ,16-<18 tahun,1890,Malaysia,Luar Bandar,295.44,Perempuan,,2,2
+Dewasa ,18-29 tahun,2240,Malaysia,Luar Bandar,294.55,Lelaki,,2,1
+Dewasa ,18-29 tahun,1840,Malaysia,Luar Bandar,281.34,Perempuan,,2,2
+Dewasa ,30-59 tahun,2190,Malaysia,Luar Bandar,294.55,Lelaki,,2,1
+Dewasa ,30-59 tahun,1900,Malaysia,Luar Bandar,294.55,Perempuan,,2,2
+Warga Emas ,≥60 tahun,2030,Malaysia,Luar Bandar,281.34,Lelaki,,2,1
+Warga Emas ,≥60 tahun,1770,Malaysia,Luar Bandar,278.79,Perempuan,,2,2
+Bayi  ,6-8 bulan,570-680,Johor,Bandar,27.98,Lelaki,1,1,1
+Bayi ,6-8 bulan,570-680,Johor,Bandar,27.98,Perempuan,1,1,2
+Bayi  ,9-11 bulan,660-720,Johor,Bandar,40.49,Lelaki,1,1,1
+Bayi ,9-11 bulan,660-720,Johor,Bandar,40.49,Perempuan,1,1,2
+Kanak-kanak ,1-3 tahun,980,Johor,Bandar,134.27,Lelaki,1,1,1
+Kanak-kanak  ,1-3 tahun,900,Johor,Bandar,134.27,Perempuan,1,1,2
+Kanak-kanak ,4-6 tahun,1300,Johor,Bandar,200.11,Lelaki,1,1,1
+Kanak-kanak  ,4-6 tahun,1210,Johor,Bandar,166.71,Perempuan,1,1,2
+Kanak-kanak ,7-9 tahun,1750,Johor,Bandar,274.98,Lelaki,1,1,1
+Kanak-kanak  ,7-9 tahun,1610,Johor,Bandar,230.44,Perempuan,1,1,2
+Remaja ,10-12 tahun,1930,Johor,Bandar,273.77,Lelaki,1,1,1
+Remaja ,10-12 tahun,1710,Johor,Bandar,271.25,Perempuan,1,1,2
+Remaja ,13-15 tahun,2210,Johor,Bandar,334.31,Lelaki,1,1,1
+Remaja ,13-15 tahun,1810,Johor,Bandar,305.95,Perempuan,1,1,2
+Remaja ,16-<18 tahun,2340,Johor,Bandar,371.68,Lelaki,1,1,1
+Remaja ,16-<18 tahun,1890,Johor,Bandar,306.18,Perempuan,1,1,2
+Dewasa ,18-29 tahun,2240,Johor,Bandar,306.66,Lelaki,1,1,1
+Dewasa ,18-29 tahun,1840,Johor,Bandar,294.16,Perempuan,1,1,2
+Dewasa ,30-59 tahun,2190,Johor,Bandar,306.66,Lelaki,1,1,1
+Dewasa ,30-59 tahun,1900,Johor,Bandar,306.66,Perempuan,1,1,2
+Warga Emas ,≥60 tahun,2030,Johor,Bandar,294.16,Lelaki,1,1,1
+Warga Emas ,≥60 tahun,1770,Johor,Bandar,291.64,Perempuan,1,1,2
+Bayi  ,6-8 bulan,570-680,Johor,Luar Bandar,27.72,Lelaki,1,2,1
+Bayi ,6-8 bulan,570-680,Johor,Luar Bandar,27.72,Perempuan,1,2,2
+Bayi  ,9-11 bulan,660-720,Johor,Luar Bandar,40.08,Lelaki,1,2,1
+Bayi ,9-11 bulan,660-720,Johor,Luar Bandar,40.08,Perempuan,1,2,2
+Kanak-kanak ,1-3 tahun,980,Johor,Luar Bandar,135.18,Lelaki,1,2,1
+Kanak-kanak  ,1-3 tahun,900,Johor,Luar Bandar,135.18,Perempuan,1,2,2
+Kanak-kanak ,4-6 tahun,1300,Johor,Luar Bandar,199.97,Lelaki,1,2,1
+Kanak-kanak  ,4-6 tahun,1210,Johor,Luar Bandar,166.51,Perempuan,1,2,2
+Kanak-kanak ,7-9 tahun,1750,Johor,Luar Bandar,275.56,Lelaki,1,2,1
+Kanak-kanak  ,7-9 tahun,1610,Johor,Luar Bandar,232.04,Perempuan,1,2,2
+Remaja ,10-12 tahun,1930,Johor,Luar Bandar,275.77,Lelaki,1,2,1
+Remaja ,10-12 tahun,1710,Johor,Luar Bandar,273.2,Perempuan,1,2,2
+Remaja ,13-15 tahun,2210,Johor,Luar Bandar,334.65,Lelaki,1,2,1
+Remaja ,13-15 tahun,1810,Johor,Luar Bandar,306.97,Perempuan,1,2,2
+Remaja ,16-<18 tahun,2340,Johor,Luar Bandar,372.08,Lelaki,1,2,1
+Remaja ,16-<18 tahun,1890,Johor,Luar Bandar,307.2,Perempuan,1,2,2
+Dewasa ,18-29 tahun,2240,Johor,Luar Bandar,308.23,Lelaki,1,2,1
+Dewasa ,18-29 tahun,1840,Johor,Luar Bandar,295.41,Perempuan,1,2,2
+Dewasa ,30-59 tahun,2190,Johor,Luar Bandar,308.23,Lelaki,1,2,1
+Dewasa ,30-59 tahun,1900,Johor,Luar Bandar,308.23,Perempuan,1,2,2
+Warga Emas ,≥60 tahun,2030,Johor,Luar Bandar,295.41,Lelaki,1,2,1
+Warga Emas ,≥60 tahun,1770,Johor,Luar Bandar,292.85,Perempuan,1,2,2
+Bayi  ,6-8 bulan,570-680,Kedah,Bandar,25.92,Lelaki,2,1,1
+Bayi ,6-8 bulan,570-680,Kedah,Bandar,25.92,Perempuan,2,1,2
+Bayi  ,9-11 bulan,660-720,Kedah,Bandar,36.52,Lelaki,2,1,1
+Bayi ,9-11 bulan,660-720,Kedah,Bandar,36.52,Perempuan,2,1,2
+Kanak-kanak ,1-3 tahun,980,Kedah,Bandar,121.35,Lelaki,2,1,1
+Kanak-kanak  ,1-3 tahun,900,Kedah,Bandar,121.35,Perempuan,2,1,2
+Kanak-kanak ,4-6 tahun,1300,Kedah,Bandar,179.89,Lelaki,2,1,1
+Kanak-kanak  ,4-6 tahun,1210,Kedah,Bandar,139.24,Perempuan,2,1,2
+Kanak-kanak ,7-9 tahun,1750,Kedah,Bandar,248.47,Lelaki,2,1,1
+Kanak-kanak  ,7-9 tahun,1610,Kedah,Bandar,210.3,Perempuan,2,1,2
+Remaja ,10-12 tahun,1930,Kedah,Bandar,254.6,Lelaki,2,1,1
+Remaja ,10-12 tahun,1710,Kedah,Bandar,252.07,Perempuan,2,1,2
+Remaja ,13-15 tahun,2210,Kedah,Bandar,317.98,Lelaki,2,1,1
+Remaja ,13-15 tahun,1810,Kedah,Bandar,280.87,Perempuan,2,1,2
+Remaja ,16-<18 tahun,2340,Kedah,Bandar,357.09,Lelaki,2,1,1
+Remaja ,16-<18 tahun,1890,Kedah,Bandar,281.1,Perempuan,2,1,2
+Dewasa ,18-29 tahun,2240,Kedah,Bandar,279.74,Lelaki,2,1,1
+Dewasa ,18-29 tahun,1840,Kedah,Bandar,267.05,Perempuan,2,1,2
+Dewasa ,30-59 tahun,2190,Kedah,Bandar,279.74,Lelaki,2,1,1
+Dewasa ,30-59 tahun,1900,Kedah,Bandar,279.74,Perempuan,2,1,2
+Warga Emas ,≥60 tahun,2030,Kedah,Bandar,267.05,Lelaki,2,1,1
+Warga Emas ,≥60 tahun,1770,Kedah,Bandar,264.52,Perempuan,2,1,2
+Bayi  ,6-8 bulan,570-680,Kedah,Luar Bandar,25.62,Lelaki,2,2,1
+Bayi ,6-8 bulan,570-680,Kedah,Luar Bandar,25.62,Perempuan,2,2,2
+Bayi  ,9-11 bulan,660-720,Kedah,Luar Bandar,36.79,Lelaki,2,2,1
+Bayi ,9-11 bulan,660-720,Kedah,Luar Bandar,36.79,Perempuan,2,2,2
+Kanak-kanak ,1-3 tahun,980,Kedah,Luar Bandar,127.48,Lelaki,2,2,1
+Kanak-kanak  ,1-3 tahun,900,Kedah,Luar Bandar,127.48,Perempuan,2,2,2
+Kanak-kanak ,4-6 tahun,1300,Kedah,Luar Bandar,192.31,Lelaki,2,2,1
+Kanak-kanak  ,4-6 tahun,1210,Kedah,Luar Bandar,147.82,Perempuan,2,2,2
+Kanak-kanak ,7-9 tahun,1750,Kedah,Luar Bandar,270.12,Lelaki,2,2,1
+Kanak-kanak  ,7-9 tahun,1610,Kedah,Luar Bandar,232.64,Perempuan,2,2,2
+Remaja ,10-12 tahun,1930,Kedah,Luar Bandar,285.1,Lelaki,2,2,1
+Remaja ,10-12 tahun,1710,Kedah,Luar Bandar,282.63,Perempuan,2,2,2
+Remaja ,13-15 tahun,2210,Kedah,Luar Bandar,339.62,Lelaki,2,2,1
+Remaja ,13-15 tahun,1810,Kedah,Luar Bandar,310.89,Perempuan,2,2,2
+Remaja ,16-<18 tahun,2340,Kedah,Luar Bandar,387.84,Lelaki,2,2,1
+Remaja ,16-<18 tahun,1890,Kedah,Luar Bandar,311.12,Perempuan,2,2,2
+Dewasa ,18-29 tahun,2240,Kedah,Luar Bandar,298.99,Lelaki,2,2,1
+Dewasa ,18-29 tahun,1840,Kedah,Luar Bandar,286.17,Perempuan,2,2,2
+Dewasa ,30-59 tahun,2190,Kedah,Luar Bandar,298.99,Lelaki,2,2,1
+Dewasa ,30-59 tahun,1900,Kedah,Luar Bandar,298.99,Perempuan,2,2,2
+Warga Emas ,≥60 tahun,2030,Kedah,Luar Bandar,286.17,Lelaki,2,2,1
+Warga Emas ,≥60 tahun,1770,Kedah,Luar Bandar,283.7,Perempuan,2,2,2
+Bayi  ,6-8 bulan,570-680,Kelantan,Bandar,20.67,Lelaki,3,1,1
+Bayi ,6-8 bulan,570-680,Kelantan,Bandar,20.67,Perempuan,3,1,2
+Bayi  ,9-11 bulan,660-720,Kelantan,Bandar,30.48,Lelaki,3,1,1
+Bayi ,9-11 bulan,660-720,Kelantan,Bandar,30.48,Perempuan,3,1,2
+Kanak-kanak ,1-3 tahun,980,Kelantan,Bandar,134.13,Lelaki,3,1,1
+Kanak-kanak  ,1-3 tahun,900,Kelantan,Bandar,134.13,Perempuan,3,1,2
+Kanak-kanak ,4-6 tahun,1300,Kelantan,Bandar,181.82,Lelaki,3,1,1
+Kanak-kanak  ,4-6 tahun,1210,Kelantan,Bandar,135.96,Perempuan,3,1,2
+Kanak-kanak ,7-9 tahun,1750,Kelantan,Bandar,249.22,Lelaki,3,1,1
+Kanak-kanak  ,7-9 tahun,1610,Kelantan,Bandar,217.57,Perempuan,3,1,2
+Remaja ,10-12 tahun,1930,Kelantan,Bandar,261.02,Lelaki,3,1,1
+Remaja ,10-12 tahun,1710,Kelantan,Bandar,258.47,Perempuan,3,1,2
+Remaja ,13-15 tahun,2210,Kelantan,Bandar,300.19,Lelaki,3,1,1
+Remaja ,13-15 tahun,1810,Kelantan,Bandar,281.26,Perempuan,3,1,2
+Remaja ,16-<18 tahun,2340,Kelantan,Bandar,352.27,Lelaki,3,1,1
+Remaja ,16-<18 tahun,1890,Kelantan,Bandar,281.49,Perempuan,3,1,2
+Dewasa ,18-29 tahun,2240,Kelantan,Bandar,280.7,Lelaki,3,1,1
+Dewasa ,18-29 tahun,1840,Kelantan,Bandar,268,Perempuan,3,1,2
+Dewasa ,30-59 tahun,2190,Kelantan,Bandar,280.7,Lelaki,3,1,1
+Dewasa ,30-59 tahun,1900,Kelantan,Bandar,280.7,Perempuan,3,1,2
+Warga Emas ,≥60 tahun,2030,Kelantan,Bandar,268,Lelaki,3,1,1
+Warga Emas ,≥60 tahun,1770,Kelantan,Bandar,265.45,Perempuan,3,1,2
+Bayi  ,6-8 bulan,570-680,Kelantan,Luar Bandar,19.49,Lelaki,3,2,1
+Bayi ,6-8 bulan,570-680,Kelantan,Luar Bandar,19.49,Perempuan,3,2,2
+Bayi  ,9-11 bulan,660-720,Kelantan,Luar Bandar,29.28,Lelaki,3,2,1
+Bayi ,9-11 bulan,660-720,Kelantan,Luar Bandar,29.28,Perempuan,3,2,2
+Kanak-kanak ,1-3 tahun,980,Kelantan,Luar Bandar,132.5,Lelaki,3,2,1
+Kanak-kanak  ,1-3 tahun,900,Kelantan,Luar Bandar,132.5,Perempuan,3,2,2
+Kanak-kanak ,4-6 tahun,1300,Kelantan,Luar Bandar,180.01,Lelaki,3,2,1
+Kanak-kanak  ,4-6 tahun,1210,Kelantan,Luar Bandar,135.31,Perempuan,3,2,2
+Kanak-kanak ,7-9 tahun,1750,Kelantan,Luar Bandar,243.81,Lelaki,3,2,1
+Kanak-kanak  ,7-9 tahun,1610,Kelantan,Luar Bandar,212.24,Perempuan,3,2,2
+Remaja ,10-12 tahun,1930,Kelantan,Luar Bandar,255.05,Lelaki,3,2,1
+Remaja ,10-12 tahun,1710,Kelantan,Luar Bandar,252.5,Perempuan,3,2,2
+Remaja ,13-15 tahun,2210,Kelantan,Luar Bandar,290.44,Lelaki,3,2,1
+Remaja ,13-15 tahun,1810,Kelantan,Luar Bandar,275.21,Perempuan,3,2,2
+Remaja ,16-<18 tahun,2340,Kelantan,Luar Bandar,339.64,Lelaki,3,2,1
+Remaja ,16-<18 tahun,1890,Kelantan,Luar Bandar,275.44,Perempuan,3,2,2
+Dewasa ,18-29 tahun,2240,Kelantan,Luar Bandar,276.27,Lelaki,3,2,1
+Dewasa ,18-29 tahun,1840,Kelantan,Luar Bandar,263.46,Perempuan,3,2,2
+Dewasa ,30-59 tahun,2190,Kelantan,Luar Bandar,276.27,Lelaki,3,2,1
+Dewasa ,30-59 tahun,1900,Kelantan,Luar Bandar,276.27,Perempuan,3,2,2
+Warga Emas ,≥60 tahun,2030,Kelantan,Luar Bandar,263.46,Lelaki,3,2,1
+Warga Emas ,≥60 tahun,1770,Kelantan,Luar Bandar,260.91,Perempuan,3,2,2
+Bayi  ,6-8 bulan,570-680,Melaka,Bandar,27.13,Lelaki,4,1,1
+Bayi ,6-8 bulan,570-680,Melaka,Bandar,27.13,Perempuan,4,1,2
+Bayi  ,9-11 bulan,660-720,Melaka,Bandar,40.01,Lelaki,4,1,1
+Bayi ,9-11 bulan,660-720,Melaka,Bandar,40.01,Perempuan,4,1,2
+Kanak-kanak ,1-3 tahun,980,Melaka,Bandar,137.37,Lelaki,4,1,1
+Kanak-kanak  ,1-3 tahun,900,Melaka,Bandar,137.37,Perempuan,4,1,2
+Kanak-kanak ,4-6 tahun,1300,Melaka,Bandar,206.87,Lelaki,4,1,1
+Kanak-kanak  ,4-6 tahun,1210,Melaka,Bandar,171.37,Perempuan,4,1,2
+Kanak-kanak ,7-9 tahun,1750,Melaka,Bandar,285.38,Lelaki,4,1,1
+Kanak-kanak  ,7-9 tahun,1610,Melaka,Bandar,237.87,Perempuan,4,1,2
+Remaja ,10-12 tahun,1930,Melaka,Bandar,280.82,Lelaki,4,1,1
+Remaja ,10-12 tahun,1710,Melaka,Bandar,278.27,Perempuan,4,1,2
+Remaja ,13-15 tahun,2210,Melaka,Bandar,350.87,Lelaki,4,1,1
+Remaja ,13-15 tahun,1810,Melaka,Bandar,315.96,Perempuan,4,1,2
+Remaja ,16-<18 tahun,2340,Melaka,Bandar,391.26,Lelaki,4,1,1
+Remaja ,16-<18 tahun,1890,Melaka,Bandar,316.19,Perempuan,4,1,2
+Dewasa ,18-29 tahun,2240,Melaka,Bandar,317.29,Lelaki,4,1,1
+Dewasa ,18-29 tahun,1840,Melaka,Bandar,304.66,Perempuan,4,1,2
+Dewasa ,30-59 tahun,2190,Melaka,Bandar,317.29,Lelaki,4,1,1
+Dewasa ,30-59 tahun,1900,Melaka,Bandar,317.29,Perempuan,4,1,2
+Warga Emas ,≥60 tahun,2030,Melaka,Bandar,304.66,Lelaki,4,1,1
+Warga Emas ,≥60 tahun,1770,Melaka,Bandar,302.12,Perempuan,4,1,2
+Bayi  ,6-8 bulan,570-680,Melaka,Luar Bandar,26.11,Lelaki,4,2,1
+Bayi ,6-8 bulan,570-680,Melaka,Luar Bandar,26.11,Perempuan,4,2,2
+Bayi  ,9-11 bulan,660-720,Melaka,Luar Bandar,37.92,Lelaki,4,2,1
+Bayi ,9-11 bulan,660-720,Melaka,Luar Bandar,37.92,Perempuan,4,2,2
+Kanak-kanak ,1-3 tahun,980,Melaka,Luar Bandar,126.67,Lelaki,4,2,1
+Kanak-kanak  ,1-3 tahun,900,Melaka,Luar Bandar,126.67,Perempuan,4,2,2
+Kanak-kanak ,4-6 tahun,1300,Melaka,Luar Bandar,189.66,Lelaki,4,2,1
+Kanak-kanak  ,4-6 tahun,1210,Melaka,Luar Bandar,154.57,Perempuan,4,2,2
+Kanak-kanak ,7-9 tahun,1750,Melaka,Luar Bandar,264.02,Lelaki,4,2,1
+Kanak-kanak  ,7-9 tahun,1610,Melaka,Luar Bandar,221.65,Perempuan,4,2,2
+Remaja ,10-12 tahun,1930,Melaka,Luar Bandar,264.63,Lelaki,4,2,1
+Remaja ,10-12 tahun,1710,Melaka,Luar Bandar,262.07,Perempuan,4,2,2
+Remaja ,13-15 tahun,2210,Melaka,Luar Bandar,329.57,Lelaki,4,2,1
+Remaja ,13-15 tahun,1810,Melaka,Luar Bandar,294.66,Perempuan,4,2,2
+Remaja ,16-<18 tahun,2340,Melaka,Luar Bandar,369.96,Lelaki,4,2,1
+Remaja ,16-<18 tahun,1890,Melaka,Luar Bandar,294.89,Perempuan,4,2,2
+Dewasa ,18-29 tahun,2240,Melaka,Luar Bandar,295.98,Lelaki,4,2,1
+Dewasa ,18-29 tahun,1840,Melaka,Luar Bandar,283.3,Perempuan,4,2,2
+Dewasa ,30-59 tahun,2190,Melaka,Luar Bandar,295.98,Lelaki,4,2,1
+Dewasa ,30-59 tahun,1900,Melaka,Luar Bandar,295.98,Perempuan,4,2,2
+Warga Emas ,≥60 tahun,2030,Melaka,Luar Bandar,283.3,Lelaki,4,2,1
+Warga Emas ,≥60 tahun,1770,Melaka,Luar Bandar,280.74,Perempuan,4,2,2
+Bayi  ,6-8 bulan,570-680,Negeri Sembilan,Bandar,26.68,Lelaki,5,1,1
+Bayi ,6-8 bulan,570-680,Negeri Sembilan,Bandar,26.68,Perempuan,5,1,2
+Bayi  ,9-11 bulan,660-720,Negeri Sembilan,Bandar,39.1,Lelaki,5,1,1
+Bayi ,9-11 bulan,660-720,Negeri Sembilan,Bandar,39.1,Perempuan,5,1,2
+Kanak-kanak ,1-3 tahun,980,Negeri Sembilan,Bandar,144.37,Lelaki,5,1,1
+Kanak-kanak  ,1-3 tahun,900,Negeri Sembilan,Bandar,144.37,Perempuan,5,1,2
+Kanak-kanak ,4-6 tahun,1300,Negeri Sembilan,Bandar,220.74,Lelaki,5,1,1
+Kanak-kanak  ,4-6 tahun,1210,Negeri Sembilan,Bandar,178.8,Perempuan,5,1,2
+Kanak-kanak ,7-9 tahun,1750,Negeri Sembilan,Bandar,298.73,Lelaki,5,1,1
+Kanak-kanak  ,7-9 tahun,1610,Negeri Sembilan,Bandar,253.14,Perempuan,5,1,2
+Remaja ,10-12 tahun,1930,Negeri Sembilan,Bandar,297.62,Lelaki,5,1,1
+Remaja ,10-12 tahun,1710,Negeri Sembilan,Bandar,295.14,Perempuan,5,1,2
+Remaja ,13-15 tahun,2210,Negeri Sembilan,Bandar,340.02,Lelaki,5,1,1
+Remaja ,13-15 tahun,1810,Negeri Sembilan,Bandar,330.56,Perempuan,5,1,2
+Remaja ,16-<18 tahun,2340,Negeri Sembilan,Bandar,381.95,Lelaki,5,1,1
+Remaja ,16-<18 tahun,1890,Negeri Sembilan,Bandar,330.78,Perempuan,5,1,2
+Dewasa ,18-29 tahun,2240,Negeri Sembilan,Bandar,330.21,Lelaki,5,1,1
+Dewasa ,18-29 tahun,1840,Negeri Sembilan,Bandar,317.46,Perempuan,5,1,2
+Dewasa ,30-59 tahun,2190,Negeri Sembilan,Bandar,330.21,Lelaki,5,1,1
+Dewasa ,30-59 tahun,1900,Negeri Sembilan,Bandar,330.21,Perempuan,5,1,2
+Warga Emas ,≥60 tahun,2030,Negeri Sembilan,Bandar,317.46,Lelaki,5,1,1
+Warga Emas ,≥60 tahun,1770,Negeri Sembilan,Bandar,314.98,Perempuan,5,1,2
+Bayi  ,6-8 bulan,570-680,Negeri Sembilan,Luar Bandar,22.85,Lelaki,5,2,1
+Bayi ,6-8 bulan,570-680,Negeri Sembilan,Luar Bandar,22.85,Perempuan,5,2,2
+Bayi  ,9-11 bulan,660-720,Negeri Sembilan,Luar Bandar,34.36,Lelaki,5,2,1
+Bayi ,9-11 bulan,660-720,Negeri Sembilan,Luar Bandar,34.36,Perempuan,5,2,2
+Kanak-kanak ,1-3 tahun,980,Negeri Sembilan,Luar Bandar,121.41,Lelaki,5,2,1
+Kanak-kanak  ,1-3 tahun,900,Negeri Sembilan,Luar Bandar,121.41,Perempuan,5,2,2
+Kanak-kanak ,4-6 tahun,1300,Negeri Sembilan,Luar Bandar,181.34,Lelaki,5,2,1
+Kanak-kanak  ,4-6 tahun,1210,Negeri Sembilan,Luar Bandar,140.9,Perempuan,5,2,2
+Kanak-kanak ,7-9 tahun,1750,Negeri Sembilan,Luar Bandar,254.03,Lelaki,5,2,1
+Kanak-kanak  ,7-9 tahun,1610,Negeri Sembilan,Luar Bandar,211.94,Perempuan,5,2,2
+Remaja ,10-12 tahun,1930,Negeri Sembilan,Luar Bandar,256.86,Lelaki,5,2,1
+Remaja ,10-12 tahun,1710,Negeri Sembilan,Luar Bandar,254.32,Perempuan,5,2,2
+Remaja ,13-15 tahun,2210,Negeri Sembilan,Luar Bandar,320.37,Lelaki,5,2,1
+Remaja ,13-15 tahun,1810,Negeri Sembilan,Luar Bandar,286.31,Perempuan,5,2,2
+Remaja ,16-<18 tahun,2340,Negeri Sembilan,Luar Bandar,357.25,Lelaki,5,2,1
+Remaja ,16-<18 tahun,1890,Negeri Sembilan,Luar Bandar,286.54,Perempuan,5,2,2
+Dewasa ,18-29 tahun,2240,Negeri Sembilan,Luar Bandar,285.77,Lelaki,5,2,1
+Dewasa ,18-29 tahun,1840,Negeri Sembilan,Luar Bandar,273.15,Perempuan,5,2,2
+Dewasa ,30-59 tahun,2190,Negeri Sembilan,Luar Bandar,285.77,Lelaki,5,2,1
+Dewasa ,30-59 tahun,1900,Negeri Sembilan,Luar Bandar,285.77,Perempuan,5,2,2
+Warga Emas ,≥60 tahun,2030,Negeri Sembilan,Luar Bandar,273.15,Lelaki,5,2,1
+Warga Emas ,≥60 tahun,1770,Negeri Sembilan,Luar Bandar,270.6,Perempuan,5,2,2
+Bayi  ,6-8 bulan,570-680,Pahang,Bandar,27.86,Lelaki,6,1,1
+Bayi ,6-8 bulan,570-680,Pahang,Bandar,27.86,Perempuan,6,1,2
+Bayi  ,9-11 bulan,660-720,Pahang,Bandar,41.42,Lelaki,6,1,1
+Bayi ,9-11 bulan,660-720,Pahang,Bandar,41.42,Perempuan,6,1,2
+Kanak-kanak ,1-3 tahun,980,Pahang,Bandar,162.87,Lelaki,6,1,1
+Kanak-kanak  ,1-3 tahun,900,Pahang,Bandar,162.87,Perempuan,6,1,2
+Kanak-kanak ,4-6 tahun,1300,Pahang,Bandar,219.55,Lelaki,6,1,1
+Kanak-kanak  ,4-6 tahun,1210,Pahang,Bandar,183.33,Perempuan,6,1,2
+Kanak-kanak ,7-9 tahun,1750,Pahang,Bandar,302.34,Lelaki,6,1,1
+Kanak-kanak  ,7-9 tahun,1610,Pahang,Bandar,253.16,Perempuan,6,1,2
+Remaja ,10-12 tahun,1930,Pahang,Bandar,297.32,Lelaki,6,1,1
+Remaja ,10-12 tahun,1710,Pahang,Bandar,294.83,Perempuan,6,1,2
+Remaja ,13-15 tahun,2210,Pahang,Bandar,343.62,Lelaki,6,1,1
+Remaja ,13-15 tahun,1810,Pahang,Bandar,334.4,Perempuan,6,1,2
+Remaja ,16-<18 tahun,2340,Pahang,Bandar,388.26,Lelaki,6,1,1
+Remaja ,16-<18 tahun,1890,Pahang,Bandar,334.63,Perempuan,6,1,2
+Dewasa ,18-29 tahun,2240,Pahang,Bandar,334.29,Lelaki,6,1,1
+Dewasa ,18-29 tahun,1840,Pahang,Bandar,321.64,Perempuan,6,1,2
+Dewasa ,30-59 tahun,2190,Pahang,Bandar,334.29,Lelaki,6,1,1
+Dewasa ,30-59 tahun,1900,Pahang,Bandar,334.29,Perempuan,6,1,2
+Warga Emas ,≥60 tahun,2030,Pahang,Bandar,321.64,Lelaki,6,1,1
+Warga Emas ,≥60 tahun,1770,Pahang,Bandar,319.15,Perempuan,6,1,2
+Bayi  ,6-8 bulan,570-680,Pahang,Luar Bandar,23.87,Lelaki,6,2,1
+Bayi ,6-8 bulan,570-680,Pahang,Luar Bandar,23.87,Perempuan,6,2,2
+Bayi  ,9-11 bulan,660-720,Pahang,Luar Bandar,36.61,Lelaki,6,2,1
+Bayi ,9-11 bulan,660-720,Pahang,Luar Bandar,36.61,Perempuan,6,2,2
+Kanak-kanak ,1-3 tahun,980,Pahang,Luar Bandar,149.35,Lelaki,6,2,1
+Kanak-kanak  ,1-3 tahun,900,Pahang,Luar Bandar,149.35,Perempuan,6,2,2
+Kanak-kanak ,4-6 tahun,1300,Pahang,Luar Bandar,194.63,Lelaki,6,2,1
+Kanak-kanak  ,4-6 tahun,1210,Pahang,Luar Bandar,158.58,Perempuan,6,2,2
+Kanak-kanak ,7-9 tahun,1750,Pahang,Luar Bandar,273.51,Lelaki,6,2,1
+Kanak-kanak  ,7-9 tahun,1610,Pahang,Luar Bandar,227.62,Perempuan,6,2,2
+Remaja ,10-12 tahun,1930,Pahang,Luar Bandar,269.97,Lelaki,6,2,1
+Remaja ,10-12 tahun,1710,Pahang,Luar Bandar,267.42,Perempuan,6,2,2
+Remaja ,13-15 tahun,2210,Pahang,Luar Bandar,325.55,Lelaki,6,2,1
+Remaja ,13-15 tahun,1810,Pahang,Luar Bandar,303.57,Perempuan,6,2,2
+Remaja ,16-<18 tahun,2340,Pahang,Luar Bandar,369.32,Lelaki,6,2,1
+Remaja ,16-<18 tahun,1890,Pahang,Luar Bandar,303.8,Perempuan,6,2,2
+Dewasa ,18-29 tahun,2240,Pahang,Luar Bandar,305.84,Lelaki,6,2,1
+Dewasa ,18-29 tahun,1840,Pahang,Luar Bandar,293.22,Perempuan,6,2,2
+Dewasa ,30-59 tahun,2190,Pahang,Luar Bandar,305.84,Lelaki,6,2,1
+Dewasa ,30-59 tahun,1900,Pahang,Luar Bandar,305.84,Perempuan,6,2,2
+Warga Emas ,≥60 tahun,2030,Pahang,Luar Bandar,293.22,Lelaki,6,2,1
+Warga Emas ,≥60 tahun,1770,Pahang,Luar Bandar,290.67,Perempuan,6,2,2
+Bayi  ,6-8 bulan,570-680,Pulau Pinang,Bandar,26.06,Lelaki,7,1,1
+Bayi ,6-8 bulan,570-680,Pulau Pinang,Bandar,26.06,Perempuan,7,1,2
+Bayi  ,9-11 bulan,660-720,Pulau Pinang,Bandar,36.84,Lelaki,7,1,1
+Bayi ,9-11 bulan,660-720,Pulau Pinang,Bandar,36.84,Perempuan,7,1,2
+Kanak-kanak ,1-3 tahun,980,Pulau Pinang,Bandar,129.38,Lelaki,7,1,1
+Kanak-kanak  ,1-3 tahun,900,Pulau Pinang,Bandar,129.38,Perempuan,7,1,2
+Kanak-kanak ,4-6 tahun,1300,Pulau Pinang,Bandar,194.65,Lelaki,7,1,1
+Kanak-kanak  ,4-6 tahun,1210,Pulau Pinang,Bandar,152.23,Perempuan,7,1,2
+Kanak-kanak ,7-9 tahun,1750,Pulau Pinang,Bandar,267.68,Lelaki,7,1,1
+Kanak-kanak  ,7-9 tahun,1610,Pulau Pinang,Bandar,228.23,Perempuan,7,1,2
+Remaja ,10-12 tahun,1930,Pulau Pinang,Bandar,274.34,Lelaki,7,1,1
+Remaja ,10-12 tahun,1710,Pulau Pinang,Bandar,271.88,Perempuan,7,1,2
+Remaja ,13-15 tahun,2210,Pulau Pinang,Bandar,344.09,Lelaki,7,1,1
+Remaja ,13-15 tahun,1810,Pulau Pinang,Bandar,301.06,Perempuan,7,1,2
+Remaja ,16-<18 tahun,2340,Pulau Pinang,Bandar,387.67,Lelaki,7,1,1
+Remaja ,16-<18 tahun,1890,Pulau Pinang,Bandar,301.29,Perempuan,7,1,2
+Dewasa ,18-29 tahun,2240,Pulau Pinang,Bandar,298.49,Lelaki,7,1,1
+Dewasa ,18-29 tahun,1840,Pulau Pinang,Bandar,285.89,Perempuan,7,1,2
+Dewasa ,30-59 tahun,2190,Pulau Pinang,Bandar,298.49,Lelaki,7,1,1
+Dewasa ,30-59 tahun,1900,Pulau Pinang,Bandar,298.49,Perempuan,7,1,2
+Warga Emas ,≥60 tahun,2030,Pulau Pinang,Bandar,285.89,Lelaki,7,1,1
+Warga Emas ,≥60 tahun,1770,Pulau Pinang,Bandar,283.42,Perempuan,7,1,2
+Bayi  ,6-8 bulan,570-680,Pulau Pinang,Luar Bandar,26.08,Lelaki,7,2,1
+Bayi ,6-8 bulan,570-680,Pulau Pinang,Luar Bandar,26.08,Perempuan,7,2,2
+Bayi  ,9-11 bulan,660-720,Pulau Pinang,Luar Bandar,37.04,Lelaki,7,2,1
+Bayi ,9-11 bulan,660-720,Pulau Pinang,Luar Bandar,37.04,Perempuan,7,2,2
+Kanak-kanak ,1-3 tahun,980,Pulau Pinang,Luar Bandar,133.89,Lelaki,7,2,1
+Kanak-kanak  ,1-3 tahun,900,Pulau Pinang,Luar Bandar,133.89,Perempuan,7,2,2
+Kanak-kanak ,4-6 tahun,1300,Pulau Pinang,Luar Bandar,196.37,Lelaki,7,2,1
+Kanak-kanak  ,4-6 tahun,1210,Pulau Pinang,Luar Bandar,153.99,Perempuan,7,2,2
+Kanak-kanak ,7-9 tahun,1750,Pulau Pinang,Luar Bandar,270.1,Lelaki,7,2,1
+Kanak-kanak  ,7-9 tahun,1610,Pulau Pinang,Luar Bandar,229.8,Perempuan,7,2,2
+Remaja ,10-12 tahun,1930,Pulau Pinang,Luar Bandar,275.87,Lelaki,7,2,1
+Remaja ,10-12 tahun,1710,Pulau Pinang,Luar Bandar,273.38,Perempuan,7,2,2
+Remaja ,13-15 tahun,2210,Pulau Pinang,Luar Bandar,331.03,Lelaki,7,2,1
+Remaja ,13-15 tahun,1810,Pulau Pinang,Luar Bandar,303.11,Perempuan,7,2,2
+Remaja ,16-<18 tahun,2340,Pulau Pinang,Luar Bandar,373.92,Lelaki,7,2,1
+Remaja ,16-<18 tahun,1890,Pulau Pinang,Luar Bandar,303.34,Perempuan,7,2,2
+Dewasa ,18-29 tahun,2240,Pulau Pinang,Luar Bandar,302.54,Lelaki,7,2,1
+Dewasa ,18-29 tahun,1840,Pulau Pinang,Luar Bandar,289.38,Perempuan,7,2,2
+Dewasa ,30-59 tahun,2190,Pulau Pinang,Luar Bandar,302.54,Lelaki,7,2,1
+Dewasa ,30-59 tahun,1900,Pulau Pinang,Luar Bandar,302.54,Perempuan,7,2,2
+Warga Emas ,≥60 tahun,2030,Pulau Pinang,Luar Bandar,289.38,Lelaki,7,2,1
+Warga Emas ,≥60 tahun,1770,Pulau Pinang,Luar Bandar,286.89,Perempuan,7,2,2
+Bayi  ,6-8 bulan,570-680,Perak,Bandar,25.26,Lelaki,8,1,1
+Bayi ,6-8 bulan,570-680,Perak,Bandar,25.26,Perempuan,8,1,2
+Bayi  ,9-11 bulan,660-720,Perak,Bandar,36.66,Lelaki,8,1,1
+Bayi ,9-11 bulan,660-720,Perak,Bandar,36.66,Perempuan,8,1,2
+Kanak-kanak ,1-3 tahun,980,Perak,Bandar,128.04,Lelaki,8,1,1
+Kanak-kanak  ,1-3 tahun,900,Perak,Bandar,128.04,Perempuan,8,1,2
+Kanak-kanak ,4-6 tahun,1300,Perak,Bandar,192.73,Lelaki,8,1,1
+Kanak-kanak  ,4-6 tahun,1210,Perak,Bandar,150.86,Perempuan,8,1,2
+Kanak-kanak ,7-9 tahun,1750,Perak,Bandar,268.74,Lelaki,8,1,1
+Kanak-kanak  ,7-9 tahun,1610,Perak,Bandar,226.28,Perempuan,8,1,2
+Remaja ,10-12 tahun,1930,Perak,Bandar,270.34,Lelaki,8,1,1
+Remaja ,10-12 tahun,1710,Perak,Bandar,268.58,Perempuan,8,1,2
+Remaja ,13-15 tahun,2210,Perak,Bandar,327.3,Lelaki,8,1,1
+Remaja ,13-15 tahun,1810,Perak,Bandar,300.68,Perempuan,8,1,2
+Remaja ,16-<18 tahun,2340,Perak,Bandar,370.16,Lelaki,8,1,1
+Remaja ,16-<18 tahun,1890,Perak,Bandar,300.84,Perempuan,8,1,2
+Dewasa ,18-29 tahun,2240,Perak,Bandar,299.34,Lelaki,8,1,1
+Dewasa ,18-29 tahun,1840,Perak,Bandar,286.69,Perempuan,8,1,2
+Dewasa ,30-59 tahun,2190,Perak,Bandar,299.34,Lelaki,8,1,1
+Dewasa ,30-59 tahun,1900,Perak,Bandar,299.34,Perempuan,8,1,2
+Warga Emas ,≥60 tahun,2030,Perak,Bandar,286.69,Lelaki,8,1,1
+Warga Emas ,≥60 tahun,1770,Perak,Bandar,284.92,Perempuan,8,1,2
+Bayi  ,6-8 bulan,570-680,Perak,Luar Bandar,21.24,Lelaki,8,2,1
+Bayi ,6-8 bulan,570-680,Perak,Luar Bandar,21.24,Perempuan,8,2,2
+Bayi  ,9-11 bulan,660-720,Perak,Luar Bandar,32.82,Lelaki,8,2,1
+Bayi ,9-11 bulan,660-720,Perak,Luar Bandar,32.82,Perempuan,8,2,2
+Kanak-kanak ,1-3 tahun,980,Perak,Luar Bandar,127.31,Lelaki,8,2,1
+Kanak-kanak  ,1-3 tahun,900,Perak,Luar Bandar,127.31,Perempuan,8,2,2
+Kanak-kanak ,4-6 tahun,1300,Perak,Luar Bandar,190.97,Lelaki,8,2,1
+Kanak-kanak  ,4-6 tahun,1210,Perak,Luar Bandar,147.97,Perempuan,8,2,2
+Kanak-kanak ,7-9 tahun,1750,Perak,Luar Bandar,267.38,Lelaki,8,2,1
+Kanak-kanak  ,7-9 tahun,1610,Perak,Luar Bandar,226.59,Perempuan,8,2,2
+Remaja ,10-12 tahun,1930,Perak,Luar Bandar,271.94,Lelaki,8,2,1
+Remaja ,10-12 tahun,1710,Perak,Luar Bandar,269.43,Perempuan,8,2,2
+Remaja ,13-15 tahun,2210,Perak,Luar Bandar,314.45,Lelaki,8,2,1
+Remaja ,13-15 tahun,1810,Perak,Luar Bandar,300.58,Perempuan,8,2,2
+Remaja ,16-<18 tahun,2340,Perak,Luar Bandar,360.02,Lelaki,8,2,1
+Remaja ,16-<18 tahun,1890,Perak,Luar Bandar,300.81,Perempuan,8,2,2
+Dewasa ,18-29 tahun,2240,Perak,Luar Bandar,299.03,Lelaki,8,2,1
+Dewasa ,18-29 tahun,1840,Perak,Luar Bandar,286.49,Perempuan,8,2,2
+Dewasa ,30-59 tahun,2190,Perak,Luar Bandar,299.03,Lelaki,8,2,1
+Dewasa ,30-59 tahun,1900,Perak,Luar Bandar,299.03,Perempuan,8,2,2
+Warga Emas ,≥60 tahun,2030,Perak,Luar Bandar,286.49,Lelaki,8,2,1
+Warga Emas ,≥60 tahun,1770,Perak,Luar Bandar,283.97,Perempuan,8,2,2
+Bayi  ,6-8 bulan,570-680,Perlis,Bandar,20.46,Lelaki,9,1,1
+Bayi ,6-8 bulan,570-680,Perlis,Bandar,20.46,Perempuan,9,1,2
+Bayi  ,9-11 bulan,660-720,Perlis,Bandar,30.59,Lelaki,9,1,1
+Bayi ,9-11 bulan,660-720,Perlis,Bandar,30.59,Perempuan,9,1,2
+Kanak-kanak ,1-3 tahun,980,Perlis,Bandar,120.98,Lelaki,9,1,1
+Kanak-kanak  ,1-3 tahun,900,Perlis,Bandar,120.98,Perempuan,9,1,2
+Kanak-kanak ,4-6 tahun,1300,Perlis,Bandar,201.86,Lelaki,9,1,1
+Kanak-kanak  ,4-6 tahun,1210,Perlis,Bandar,141.73,Perempuan,9,1,2
+Kanak-kanak ,7-9 tahun,1750,Perlis,Bandar,257.45,Lelaki,9,1,1
+Kanak-kanak  ,7-9 tahun,1610,Perlis,Bandar,223.1,Perempuan,9,1,2
+Remaja ,10-12 tahun,1930,Perlis,Bandar,265.84,Lelaki,9,1,1
+Remaja ,10-12 tahun,1710,Perlis,Bandar,263.49,Perempuan,9,1,2
+Remaja ,13-15 tahun,2210,Perlis,Bandar,304.81,Lelaki,9,1,1
+Remaja ,13-15 tahun,1810,Perlis,Bandar,288.85,Perempuan,9,1,2
+Remaja ,16-<18 tahun,2340,Perlis,Bandar,355.74,Lelaki,9,1,1
+Remaja ,16-<18 tahun,1890,Perlis,Bandar,289.07,Perempuan,9,1,2
+Dewasa ,18-29 tahun,2240,Perlis,Bandar,288.67,Lelaki,9,1,1
+Dewasa ,18-29 tahun,1840,Perlis,Bandar,276.2,Perempuan,9,1,2
+Dewasa ,30-59 tahun,2190,Perlis,Bandar,288.67,Lelaki,9,1,1
+Dewasa ,30-59 tahun,1900,Perlis,Bandar,288.67,Perempuan,9,1,2
+Warga Emas ,≥60 tahun,2030,Perlis,Bandar,276.2,Lelaki,9,1,1
+Warga Emas ,≥60 tahun,1770,Perlis,Bandar,273.85,Perempuan,9,1,2
+Bayi  ,6-8 bulan,570-680,Perlis,Luar Bandar,24.17,Lelaki,9,2,1
+Bayi ,6-8 bulan,570-680,Perlis,Luar Bandar,24.17,Perempuan,9,2,2
+Bayi  ,9-11 bulan,660-720,Perlis,Luar Bandar,34.44,Lelaki,9,2,1
+Bayi ,9-11 bulan,660-720,Perlis,Luar Bandar,34.44,Perempuan,9,2,2
+Kanak-kanak ,1-3 tahun,980,Perlis,Luar Bandar,119.09,Lelaki,9,2,1
+Kanak-kanak  ,1-3 tahun,900,Perlis,Luar Bandar,119.09,Perempuan,9,2,2
+Kanak-kanak ,4-6 tahun,1300,Perlis,Luar Bandar,188.88,Lelaki,9,2,1
+Kanak-kanak  ,4-6 tahun,1210,Perlis,Luar Bandar,143.44,Perempuan,9,2,2
+Kanak-kanak ,7-9 tahun,1750,Perlis,Luar Bandar,257.82,Lelaki,9,2,1
+Kanak-kanak  ,7-9 tahun,1610,Perlis,Luar Bandar,225.47,Perempuan,9,2,2
+Remaja ,10-12 tahun,1930,Perlis,Luar Bandar,267.38,Lelaki,9,2,1
+Remaja ,10-12 tahun,1710,Perlis,Luar Bandar,265.02,Perempuan,9,2,2
+Remaja ,13-15 tahun,2210,Perlis,Luar Bandar,319.19,Lelaki,9,2,1
+Remaja ,13-15 tahun,1810,Perlis,Luar Bandar,288.8,Perempuan,9,2,2
+Remaja ,16-<18 tahun,2340,Perlis,Luar Bandar,369.9,Lelaki,9,2,1
+Remaja ,16-<18 tahun,1890,Perlis,Luar Bandar,289.01,Perempuan,9,2,2
+Dewasa ,18-29 tahun,2240,Perlis,Luar Bandar,288.85,Lelaki,9,2,1
+Dewasa ,18-29 tahun,1840,Perlis,Luar Bandar,276.55,Perempuan,9,2,2
+Dewasa ,30-59 tahun,2190,Perlis,Luar Bandar,288.85,Lelaki,9,2,1
+Dewasa ,30-59 tahun,1900,Perlis,Luar Bandar,288.85,Perempuan,9,2,2
+Warga Emas ,≥60 tahun,2030,Perlis,Luar Bandar,276.55,Lelaki,9,2,1
+Warga Emas ,≥60 tahun,1770,Perlis,Luar Bandar,274.18,Perempuan,9,2,2
+Bayi  ,6-8 bulan,570-680,Selangor,Bandar,27.93,Lelaki,10,1,1
+Bayi ,6-8 bulan,570-680,Selangor,Bandar,27.93,Perempuan,10,1,2
+Bayi  ,9-11 bulan,660-720,Selangor,Bandar,40.94,Lelaki,10,1,1
+Bayi ,9-11 bulan,660-720,Selangor,Bandar,40.94,Perempuan,10,1,2
+Kanak-kanak ,1-3 tahun,980,Selangor,Bandar,146.35,Lelaki,10,1,1
+Kanak-kanak  ,1-3 tahun,900,Selangor,Bandar,146.35,Perempuan,10,1,2
+Kanak-kanak ,4-6 tahun,1300,Selangor,Bandar,222.29,Lelaki,10,1,1
+Kanak-kanak  ,4-6 tahun,1210,Selangor,Bandar,180.02,Perempuan,10,1,2
+Kanak-kanak ,7-9 tahun,1750,Selangor,Bandar,302.65,Lelaki,10,1,1
+Kanak-kanak  ,7-9 tahun,1610,Selangor,Bandar,254.66,Perempuan,10,1,2
+Remaja ,10-12 tahun,1930,Selangor,Bandar,299.04,Lelaki,10,1,1
+Remaja ,10-12 tahun,1710,Selangor,Bandar,296.87,Perempuan,10,1,2
+Remaja ,13-15 tahun,2210,Selangor,Bandar,374.27,Lelaki,10,1,1
+Remaja ,13-15 tahun,1810,Selangor,Bandar,334.38,Perempuan,10,1,2
+Remaja ,16-<18 tahun,2340,Selangor,Bandar,416.62,Lelaki,10,1,1
+Remaja ,16-<18 tahun,1890,Selangor,Bandar,334.57,Perempuan,10,1,2
+Dewasa ,18-29 tahun,2240,Selangor,Bandar,334.12,Lelaki,10,1,1
+Dewasa ,18-29 tahun,1840,Selangor,Bandar,321.5,Perempuan,10,1,2
+Dewasa ,30-59 tahun,2190,Selangor,Bandar,334.12,Lelaki,10,1,1
+Dewasa ,30-59 tahun,1900,Selangor,Bandar,334.12,Perempuan,10,1,2
+Warga Emas ,≥60 tahun,2030,Selangor,Bandar,321.5,Lelaki,10,1,1
+Warga Emas ,≥60 tahun,1770,Selangor,Bandar,319.32,Perempuan,10,1,2
+Bayi  ,6-8 bulan,570-680,Selangor,Luar Bandar,27.44,Lelaki,10,2,1
+Bayi ,6-8 bulan,570-680,Selangor,Luar Bandar,27.44,Perempuan,10,2,2
+Bayi  ,9-11 bulan,660-720,Selangor,Luar Bandar,39.89,Lelaki,10,2,1
+Bayi ,9-11 bulan,660-720,Selangor,Luar Bandar,39.89,Perempuan,10,2,2
+Kanak-kanak ,1-3 tahun,980,Selangor,Luar Bandar,131.57,Lelaki,10,2,1
+Kanak-kanak  ,1-3 tahun,900,Selangor,Luar Bandar,131.57,Perempuan,10,2,2
+Kanak-kanak ,4-6 tahun,1300,Selangor,Luar Bandar,193.39,Lelaki,10,2,1
+Kanak-kanak  ,4-6 tahun,1210,Selangor,Luar Bandar,152.52,Perempuan,10,2,2
+Kanak-kanak ,7-9 tahun,1750,Selangor,Luar Bandar,269.44,Lelaki,10,2,1
+Kanak-kanak  ,7-9 tahun,1610,Selangor,Luar Bandar,223.81,Perempuan,10,2,2
+Remaja ,10-12 tahun,1930,Selangor,Luar Bandar,268.48,Lelaki,10,2,1
+Remaja ,10-12 tahun,1710,Selangor,Luar Bandar,266.15,Perempuan,10,2,2
+Remaja ,13-15 tahun,2210,Selangor,Luar Bandar,336.74,Lelaki,10,2,1
+Remaja ,13-15 tahun,1810,Selangor,Luar Bandar,301.58,Perempuan,10,2,2
+Remaja ,16-<18 tahun,2340,Selangor,Luar Bandar,375.26,Lelaki,10,2,1
+Remaja ,16-<18 tahun,1890,Selangor,Luar Bandar,301.79,Perempuan,10,2,2
+Dewasa ,18-29 tahun,2240,Selangor,Luar Bandar,301.55,Lelaki,10,2,1
+Dewasa ,18-29 tahun,1840,Selangor,Luar Bandar,288.8,Perempuan,10,2,2
+Dewasa ,30-59 tahun,2190,Selangor,Luar Bandar,301.55,Lelaki,10,2,1
+Dewasa ,30-59 tahun,1900,Selangor,Luar Bandar,301.55,Perempuan,10,2,2
+Warga Emas ,≥60 tahun,2030,Selangor,Luar Bandar,288.8,Lelaki,10,2,1
+Warga Emas ,≥60 tahun,1770,Selangor,Luar Bandar,286.48,Perempuan,10,2,2
+Bayi  ,6-8 bulan,570-680,Terengganu,Bandar,24.86,Lelaki,11,1,1
+Bayi ,6-8 bulan,570-680,Terengganu,Bandar,24.86,Perempuan,11,1,2
+Bayi  ,9-11 bulan,660-720,Terengganu,Bandar,35.74,Lelaki,11,1,1
+Bayi ,9-11 bulan,660-720,Terengganu,Bandar,35.74,Perempuan,11,1,2
+Kanak-kanak ,1-3 tahun,980,Terengganu,Bandar,139.44,Lelaki,11,1,1
+Kanak-kanak  ,1-3 tahun,900,Terengganu,Bandar,139.44,Perempuan,11,1,2
+Kanak-kanak ,4-6 tahun,1300,Terengganu,Bandar,192.97,Lelaki,11,1,1
+Kanak-kanak  ,4-6 tahun,1210,Terengganu,Bandar,153.07,Perempuan,11,1,2
+Kanak-kanak ,7-9 tahun,1750,Terengganu,Bandar,260.74,Lelaki,11,1,1
+Kanak-kanak  ,7-9 tahun,1610,Terengganu,Bandar,227.2,Perempuan,11,1,2
+Remaja ,10-12 tahun,1930,Terengganu,Bandar,272.25,Lelaki,11,1,1
+Remaja ,10-12 tahun,1710,Terengganu,Bandar,269.7,Perempuan,11,1,2
+Remaja ,13-15 tahun,2210,Terengganu,Bandar,323.34,Lelaki,11,1,1
+Remaja ,13-15 tahun,1810,Terengganu,Bandar,293.73,Perempuan,11,1,2
+Remaja ,16-<18 tahun,2340,Terengganu,Bandar,377.49,Lelaki,11,1,1
+Remaja ,16-<18 tahun,1890,Terengganu,Bandar,293.96,Perempuan,11,1,2
+Dewasa ,18-29 tahun,2240,Terengganu,Bandar,292.96,Lelaki,11,1,1
+Dewasa ,18-29 tahun,1840,Terengganu,Bandar,280.31,Perempuan,11,1,2
+Dewasa ,30-59 tahun,2190,Terengganu,Bandar,292.96,Lelaki,11,1,1
+Dewasa ,30-59 tahun,1900,Terengganu,Bandar,292.96,Perempuan,11,1,2
+Warga Emas ,≥60 tahun,2030,Terengganu,Bandar,280.31,Lelaki,11,1,1
+Warga Emas ,≥60 tahun,1770,Terengganu,Bandar,277.76,Perempuan,11,1,2
+Bayi  ,6-8 bulan,570-680,Terengganu,Luar Bandar,26.48,Lelaki,11,2,1
+Bayi ,6-8 bulan,570-680,Terengganu,Luar Bandar,26.48,Perempuan,11,2,2
+Bayi  ,9-11 bulan,660-720,Terengganu,Luar Bandar,37.12,Lelaki,11,2,1
+Bayi ,9-11 bulan,660-720,Terengganu,Luar Bandar,37.12,Perempuan,11,2,2
+Kanak-kanak ,1-3 tahun,980,Terengganu,Luar Bandar,120.36,Lelaki,11,2,1
+Kanak-kanak  ,1-3 tahun,900,Terengganu,Luar Bandar,120.36,Perempuan,11,2,2
+Kanak-kanak ,4-6 tahun,1300,Terengganu,Luar Bandar,188.45,Lelaki,11,2,1
+Kanak-kanak  ,4-6 tahun,1210,Terengganu,Luar Bandar,148.37,Perempuan,11,2,2
+Kanak-kanak ,7-9 tahun,1750,Terengganu,Luar Bandar,262.84,Lelaki,11,2,1
+Kanak-kanak  ,7-9 tahun,1610,Terengganu,Luar Bandar,228.43,Perempuan,11,2,2
+Remaja ,10-12 tahun,1930,Terengganu,Luar Bandar,272.34,Lelaki,11,2,1
+Remaja ,10-12 tahun,1710,Terengganu,Luar Bandar,269.9,Perempuan,11,2,2
+Remaja ,13-15 tahun,2210,Terengganu,Luar Bandar,332.25,Lelaki,11,2,1
+Remaja ,13-15 tahun,1810,Terengganu,Luar Bandar,295.1,Perempuan,11,2,2
+Remaja ,16-<18 tahun,2340,Terengganu,Luar Bandar,386.56,Lelaki,11,2,1
+Remaja ,16-<18 tahun,1890,Terengganu,Luar Bandar,295.32,Perempuan,11,2,2
+Dewasa ,18-29 tahun,2240,Terengganu,Luar Bandar,296.16,Lelaki,11,2,1
+Dewasa ,18-29 tahun,1840,Terengganu,Luar Bandar,283.59,Perempuan,11,2,2
+Dewasa ,30-59 tahun,2190,Terengganu,Luar Bandar,296.16,Lelaki,11,2,1
+Dewasa ,30-59 tahun,1900,Terengganu,Luar Bandar,296.16,Perempuan,11,2,2
+Warga Emas ,≥60 tahun,2030,Terengganu,Luar Bandar,283.59,Lelaki,11,2,1
+Warga Emas ,≥60 tahun,1770,Terengganu,Luar Bandar,281.15,Perempuan,11,2,2
+Bayi  ,6-8 bulan,570-680,Sabah,Bandar,17.09,Lelaki,12,1,1
+Bayi ,6-8 bulan,570-680,Sabah,Bandar,17.09,Perempuan,12,1,2
+Bayi  ,9-11 bulan,660-720,Sabah,Bandar,25.59,Lelaki,12,1,1
+Bayi ,9-11 bulan,660-720,Sabah,Bandar,25.59,Perempuan,12,1,2
+Kanak-kanak ,1-3 tahun,980,Sabah,Bandar,131.18,Lelaki,12,1,1
+Kanak-kanak  ,1-3 tahun,900,Sabah,Bandar,131.18,Perempuan,12,1,2
+Kanak-kanak ,4-6 tahun,1300,Sabah,Bandar,178.72,Lelaki,12,1,1
+Kanak-kanak  ,4-6 tahun,1210,Sabah,Bandar,134.95,Perempuan,12,1,2
+Kanak-kanak ,7-9 tahun,1750,Sabah,Bandar,245.36,Lelaki,12,1,1
+Kanak-kanak  ,7-9 tahun,1610,Sabah,Bandar,214.93,Perempuan,12,1,2
+Remaja ,10-12 tahun,1930,Sabah,Bandar,266.13,Lelaki,12,1,1
+Remaja ,10-12 tahun,1710,Sabah,Bandar,263.47,Perempuan,12,1,2
+Remaja ,13-15 tahun,2210,Sabah,Bandar,289.46,Lelaki,12,1,1
+Remaja ,13-15 tahun,1810,Sabah,Bandar,282.02,Perempuan,12,1,2
+Remaja ,16-<18 tahun,2340,Sabah,Bandar,335.23,Lelaki,12,1,1
+Remaja ,16-<18 tahun,1890,Sabah,Bandar,282.32,Perempuan,12,1,2
+Dewasa ,18-29 tahun,2240,Sabah,Bandar,284.02,Lelaki,12,1,1
+Dewasa ,18-29 tahun,1840,Sabah,Bandar,269.46,Perempuan,12,1,2
+Dewasa ,30-59 tahun,2190,Sabah,Bandar,284.02,Lelaki,12,1,1
+Dewasa ,30-59 tahun,1900,Sabah,Bandar,284.02,Perempuan,12,1,2
+Warga Emas ,≥60 tahun,2030,Sabah,Bandar,269.46,Lelaki,12,1,1
+Warga Emas ,≥60 tahun,1770,Sabah,Bandar,266.8,Perempuan,12,1,2
+Bayi  ,6-8 bulan,570-680,Sabah,Luar Bandar,17.6,Lelaki,12,2,1
+Bayi ,6-8 bulan,570-680,Sabah,Luar Bandar,17.6,Perempuan,12,2,2
+Bayi  ,9-11 bulan,660-720,Sabah,Luar Bandar,27.32,Lelaki,12,2,1
+Bayi ,9-11 bulan,660-720,Sabah,Luar Bandar,27.32,Perempuan,12,2,2
+Kanak-kanak ,1-3 tahun,980,Sabah,Luar Bandar,126.95,Lelaki,12,2,1
+Kanak-kanak  ,1-3 tahun,900,Sabah,Luar Bandar,126.95,Perempuan,12,2,2
+Kanak-kanak ,4-6 tahun,1300,Sabah,Luar Bandar,167.11,Lelaki,12,2,1
+Kanak-kanak  ,4-6 tahun,1210,Sabah,Luar Bandar,122.44,Perempuan,12,2,2
+Kanak-kanak ,7-9 tahun,1750,Sabah,Luar Bandar,238.9,Lelaki,12,2,1
+Kanak-kanak  ,7-9 tahun,1610,Sabah,Luar Bandar,204.5,Perempuan,12,2,2
+Remaja ,10-12 tahun,1930,Sabah,Luar Bandar,257.72,Lelaki,12,2,1
+Remaja ,10-12 tahun,1710,Sabah,Luar Bandar,255.04,Perempuan,12,2,2
+Remaja ,13-15 tahun,2210,Sabah,Luar Bandar,308.28,Lelaki,12,2,1
+Remaja ,13-15 tahun,1810,Sabah,Luar Bandar,277.12,Perempuan,12,2,2
+Remaja ,16-<18 tahun,2340,Sabah,Luar Bandar,354.79,Lelaki,12,2,1
+Remaja ,16-<18 tahun,1890,Sabah,Luar Bandar,277.37,Perempuan,12,2,2
+Dewasa ,18-29 tahun,2240,Sabah,Luar Bandar,278.08,Lelaki,12,2,1
+Dewasa ,18-29 tahun,1840,Sabah,Luar Bandar,262.22,Perempuan,12,2,2
+Dewasa ,30-59 tahun,2190,Sabah,Luar Bandar,278.08,Lelaki,12,2,1
+Dewasa ,30-59 tahun,1900,Sabah,Luar Bandar,278.08,Perempuan,12,2,2
+Warga Emas ,≥60 tahun,2030,Sabah,Luar Bandar,262.22,Lelaki,12,2,1
+Warga Emas ,≥60 tahun,1770,Sabah,Luar Bandar,259.55,Perempuan,12,2,2
+Bayi  ,6-8 bulan,570-680,Sarawak,Bandar,30.74,Lelaki,13,1,1
+Bayi ,6-8 bulan,570-680,Sarawak,Bandar,30.74,Perempuan,13,1,2
+Bayi  ,9-11 bulan,660-720,Sarawak,Bandar,43.46,Lelaki,13,1,1
+Bayi ,9-11 bulan,660-720,Sarawak,Bandar,43.46,Perempuan,13,1,2
+Kanak-kanak ,1-3 tahun,980,Sarawak,Bandar,170.18,Lelaki,13,1,1
+Kanak-kanak  ,1-3 tahun,900,Sarawak,Bandar,170.18,Perempuan,13,1,2
+Kanak-kanak ,4-6 tahun,1300,Sarawak,Bandar,243.13,Lelaki,13,1,1
+Kanak-kanak  ,4-6 tahun,1210,Sarawak,Bandar,200.14,Perempuan,13,1,2
+Kanak-kanak ,7-9 tahun,1750,Sarawak,Bandar,321.89,Lelaki,13,1,1
+Kanak-kanak  ,7-9 tahun,1610,Sarawak,Bandar,280.66,Perempuan,13,1,2
+Remaja ,10-12 tahun,1930,Sarawak,Bandar,334.86,Lelaki,13,1,1
+Remaja ,10-12 tahun,1710,Sarawak,Bandar,331.83,Perempuan,13,1,2
+Remaja ,13-15 tahun,2210,Sarawak,Bandar,369.37,Lelaki,13,1,1
+Remaja ,13-15 tahun,1810,Sarawak,Bandar,362.8,Perempuan,13,1,2
+Remaja ,16-<18 tahun,2340,Sarawak,Bandar,414.75,Lelaki,13,1,1
+Remaja ,16-<18 tahun,1890,Sarawak,Bandar,363.07,Perempuan,13,1,2
+Dewasa ,18-29 tahun,2240,Sarawak,Bandar,356.78,Lelaki,13,1,1
+Dewasa ,18-29 tahun,1840,Sarawak,Bandar,342.94,Perempuan,13,1,2
+Dewasa ,30-59 tahun,2190,Sarawak,Bandar,356.78,Lelaki,13,1,1
+Dewasa ,30-59 tahun,1900,Sarawak,Bandar,356.78,Perempuan,13,1,2
+Warga Emas ,≥60 tahun,2030,Sarawak,Bandar,342.94,Lelaki,13,1,1
+Warga Emas ,≥60 tahun,1770,Sarawak,Bandar,339.91,Perempuan,13,1,2
+Bayi  ,6-8 bulan,570-680,Sarawak,Luar Bandar,20.86,Lelaki,13,2,1
+Bayi ,6-8 bulan,570-680,Sarawak,Luar Bandar,20.86,Perempuan,13,2,2
+Bayi  ,9-11 bulan,660-720,Sarawak,Luar Bandar,32.61,Lelaki,13,2,1
+Bayi ,9-11 bulan,660-720,Sarawak,Luar Bandar,32.61,Perempuan,13,2,2
+Kanak-kanak ,1-3 tahun,980,Sarawak,Luar Bandar,136.46,Lelaki,13,2,1
+Kanak-kanak  ,1-3 tahun,900,Sarawak,Luar Bandar,136.46,Perempuan,13,2,2
+Kanak-kanak ,4-6 tahun,1300,Sarawak,Luar Bandar,179.08,Lelaki,13,2,1
+Kanak-kanak  ,4-6 tahun,1210,Sarawak,Luar Bandar,133.97,Perempuan,13,2,2
+Kanak-kanak ,7-9 tahun,1750,Sarawak,Luar Bandar,248.52,Lelaki,13,2,1
+Kanak-kanak  ,7-9 tahun,1610,Sarawak,Luar Bandar,211.27,Perempuan,13,2,2
+Remaja ,10-12 tahun,1930,Sarawak,Luar Bandar,264.63,Lelaki,13,2,1
+Remaja ,10-12 tahun,1710,Sarawak,Luar Bandar,261.75,Perempuan,13,2,2
+Remaja ,13-15 tahun,2210,Sarawak,Luar Bandar,324.22,Lelaki,13,2,1
+Remaja ,13-15 tahun,1810,Sarawak,Luar Bandar,289.35,Perempuan,13,2,2
+Remaja ,16-<18 tahun,2340,Sarawak,Luar Bandar,372.08,Lelaki,13,2,1
+Remaja ,16-<18 tahun,1890,Sarawak,Luar Bandar,289.61,Perempuan,13,2,2
+Dewasa ,18-29 tahun,2240,Sarawak,Luar Bandar,287.11,Lelaki,13,2,1
+Dewasa ,18-29 tahun,1840,Sarawak,Luar Bandar,272.86,Perempuan,13,2,2
+Dewasa ,30-59 tahun,2190,Sarawak,Luar Bandar,287.11,Lelaki,13,2,1
+Dewasa ,30-59 tahun,1900,Sarawak,Luar Bandar,287.11,Perempuan,13,2,2
+Warga Emas ,≥60 tahun,2030,Sarawak,Luar Bandar,272.86,Lelaki,13,2,1
+Warga Emas ,≥60 tahun,1770,Sarawak,Luar Bandar,269.99,Perempuan,13,2,2
+Bayi  ,6-8 bulan,570-680,W.P. Kuala Lumpur,Bandar,27.68,Lelaki,14,1,1
+Bayi ,6-8 bulan,570-680,W.P. Kuala Lumpur,Bandar,27.68,Perempuan,14,1,2
+Bayi  ,9-11 bulan,660-720,W.P. Kuala Lumpur,Bandar,40.54,Lelaki,14,1,1
+Bayi ,9-11 bulan,660-720,W.P. Kuala Lumpur,Bandar,40.54,Perempuan,14,1,2
+Kanak-kanak ,1-3 tahun,980,W.P. Kuala Lumpur,Bandar,147.67,Lelaki,14,1,1
+Kanak-kanak  ,1-3 tahun,900,W.P. Kuala Lumpur,Bandar,147.67,Perempuan,14,1,2
+Kanak-kanak ,4-6 tahun,1300,W.P. Kuala Lumpur,Bandar,221.56,Lelaki,14,1,1
+Kanak-kanak  ,4-6 tahun,1210,W.P. Kuala Lumpur,Bandar,179.81,Perempuan,14,1,2
+Kanak-kanak ,7-9 tahun,1750,W.P. Kuala Lumpur,Bandar,300.97,Lelaki,14,1,1
+Kanak-kanak  ,7-9 tahun,1610,W.P. Kuala Lumpur,Bandar,253.39,Perempuan,14,1,2
+Remaja ,10-12 tahun,1930,W.P. Kuala Lumpur,Bandar,299.29,Lelaki,14,1,1
+Remaja ,10-12 tahun,1710,W.P. Kuala Lumpur,Bandar,296.79,Perempuan,14,1,2
+Remaja ,13-15 tahun,2210,W.P. Kuala Lumpur,Bandar,344.71,Lelaki,14,1,1
+Remaja ,13-15 tahun,1810,W.P. Kuala Lumpur,Bandar,333.97,Perempuan,14,1,2
+Remaja ,16-<18 tahun,2340,W.P. Kuala Lumpur,Bandar,385.21,Lelaki,14,1,1
+Remaja ,16-<18 tahun,1890,W.P. Kuala Lumpur,Bandar,334.2,Perempuan,14,1,2
+Dewasa ,18-29 tahun,2240,W.P. Kuala Lumpur,Bandar,332.44,Lelaki,14,1,1
+Dewasa ,18-29 tahun,1840,W.P. Kuala Lumpur,Bandar,319.87,Perempuan,14,1,2
+Dewasa ,30-59 tahun,2190,W.P. Kuala Lumpur,Bandar,332.44,Lelaki,14,1,1
+Dewasa ,30-59 tahun,1900,W.P. Kuala Lumpur,Bandar,332.44,Perempuan,14,1,2
+Warga Emas ,≥60 tahun,2030,W.P. Kuala Lumpur,Bandar,319.87,Lelaki,14,1,1
+Warga Emas ,≥60 tahun,1770,W.P. Kuala Lumpur,Bandar,317.37,Perempuan,14,1,2
+Bayi  ,6-8 bulan,570-680,W.P. Kuala Lumpur,Luar Bandar,0,Lelaki,14,2,1
+Bayi ,6-8 bulan,570-680,W.P. Kuala Lumpur,Luar Bandar,0,Perempuan,14,2,2
+Bayi  ,9-11 bulan,660-720,W.P. Kuala Lumpur,Luar Bandar,0,Lelaki,14,2,1
+Bayi ,9-11 bulan,660-720,W.P. Kuala Lumpur,Luar Bandar,0,Perempuan,14,2,2
+Kanak-kanak ,1-3 tahun,980,W.P. Kuala Lumpur,Luar Bandar,0,Lelaki,14,2,1
+Kanak-kanak  ,1-3 tahun,900,W.P. Kuala Lumpur,Luar Bandar,0,Perempuan,14,2,2
+Kanak-kanak ,4-6 tahun,1300,W.P. Kuala Lumpur,Luar Bandar,0,Lelaki,14,2,1
+Kanak-kanak  ,4-6 tahun,1210,W.P. Kuala Lumpur,Luar Bandar,0,Perempuan,14,2,2
+Kanak-kanak ,7-9 tahun,1750,W.P. Kuala Lumpur,Luar Bandar,0,Lelaki,14,2,1
+Kanak-kanak  ,7-9 tahun,1610,W.P. Kuala Lumpur,Luar Bandar,0,Perempuan,14,2,2
+Remaja ,10-12 tahun,1930,W.P. Kuala Lumpur,Luar Bandar,0,Lelaki,14,2,1
+Remaja ,10-12 tahun,1710,W.P. Kuala Lumpur,Luar Bandar,0,Perempuan,14,2,2
+Remaja ,13-15 tahun,2210,W.P. Kuala Lumpur,Luar Bandar,0,Lelaki,14,2,1
+Remaja ,13-15 tahun,1810,W.P. Kuala Lumpur,Luar Bandar,0,Perempuan,14,2,2
+Remaja ,16-<18 tahun,2340,W.P. Kuala Lumpur,Luar Bandar,0,Lelaki,14,2,1
+Remaja ,16-<18 tahun,1890,W.P. Kuala Lumpur,Luar Bandar,0,Perempuan,14,2,2
+Dewasa ,18-29 tahun,2240,W.P. Kuala Lumpur,Luar Bandar,0,Lelaki,14,2,1
+Dewasa ,18-29 tahun,1840,W.P. Kuala Lumpur,Luar Bandar,0,Perempuan,14,2,2
+Dewasa ,30-59 tahun,2190,W.P. Kuala Lumpur,Luar Bandar,0,Lelaki,14,2,1
+Dewasa ,30-59 tahun,1900,W.P. Kuala Lumpur,Luar Bandar,0,Perempuan,14,2,2
+Warga Emas ,≥60 tahun,2030,W.P. Kuala Lumpur,Luar Bandar,0,Lelaki,14,2,1
+Warga Emas ,≥60 tahun,1770,W.P. Kuala Lumpur,Luar Bandar,0,Perempuan,14,2,2
+Bayi  ,6-8 bulan,570-680,W.P. Labuan,Bandar,19.33,Lelaki,15,1,1
+Bayi ,6-8 bulan,570-680,W.P. Labuan,Bandar,19.33,Perempuan,15,1,2
+Bayi  ,9-11 bulan,660-720,W.P. Labuan,Bandar,28.71,Lelaki,15,1,1
+Bayi ,9-11 bulan,660-720,W.P. Labuan,Bandar,28.71,Perempuan,15,1,2
+Kanak-kanak ,1-3 tahun,980,W.P. Labuan,Bandar,140.35,Lelaki,15,1,1
+Kanak-kanak  ,1-3 tahun,900,W.P. Labuan,Bandar,140.35,Perempuan,15,1,2
+Kanak-kanak ,4-6 tahun,1300,W.P. Labuan,Bandar,199.64,Lelaki,15,1,1
+Kanak-kanak  ,4-6 tahun,1210,W.P. Labuan,Bandar,151.56,Perempuan,15,1,2
+Kanak-kanak ,7-9 tahun,1750,W.P. Labuan,Bandar,272.61,Lelaki,15,1,1
+Kanak-kanak  ,7-9 tahun,1610,W.P. Labuan,Bandar,242.42,Perempuan,15,1,2
+Remaja ,10-12 tahun,1930,W.P. Labuan,Bandar,292.85,Lelaki,15,1,1
+Remaja ,10-12 tahun,1710,W.P. Labuan,Bandar,290.22,Perempuan,15,1,2
+Remaja ,13-15 tahun,2210,W.P. Labuan,Bandar,322.52,Lelaki,15,1,1
+Remaja ,13-15 tahun,1810,W.P. Labuan,Bandar,310.29,Perempuan,15,1,2
+Remaja ,16-<18 tahun,2340,W.P. Labuan,Bandar,379.89,Lelaki,15,1,1
+Remaja ,16-<18 tahun,1890,W.P. Labuan,Bandar,310.53,Perempuan,15,1,2
+Dewasa ,18-29 tahun,2240,W.P. Labuan,Bandar,309.98,Lelaki,15,1,1
+Dewasa ,18-29 tahun,1840,W.P. Labuan,Bandar,295.77,Perempuan,15,1,2
+Dewasa ,30-59 tahun,2190,W.P. Labuan,Bandar,309.98,Lelaki,15,1,1
+Dewasa ,30-59 tahun,1900,W.P. Labuan,Bandar,309.98,Perempuan,15,1,2
+Warga Emas ,≥60 tahun,2030,W.P. Labuan,Bandar,295.77,Lelaki,15,1,1
+Warga Emas ,≥60 tahun,1770,W.P. Labuan,Bandar,293.14,Perempuan,15,1,2
+Bayi  ,6-8 bulan,570-680,W.P. Labuan,Luar Bandar,20.18,Lelaki,15,2,1
+Bayi ,6-8 bulan,570-680,W.P. Labuan,Luar Bandar,20.18,Perempuan,15,2,2
+Bayi  ,9-11 bulan,660-720,W.P. Labuan,Luar Bandar,30.3,Lelaki,15,2,1
+Bayi ,9-11 bulan,660-720,W.P. Labuan,Luar Bandar,30.3,Perempuan,15,2,2
+Kanak-kanak ,1-3 tahun,980,W.P. Labuan,Luar Bandar,113.68,Lelaki,15,2,1
+Kanak-kanak  ,1-3 tahun,900,W.P. Labuan,Luar Bandar,113.68,Perempuan,15,2,2
+Kanak-kanak ,4-6 tahun,1300,W.P. Labuan,Luar Bandar,177.95,Lelaki,15,2,1
+Kanak-kanak  ,4-6 tahun,1210,W.P. Labuan,Luar Bandar,127.58,Perempuan,15,2,2
+Kanak-kanak ,7-9 tahun,1750,W.P. Labuan,Luar Bandar,260.86,Lelaki,15,2,1
+Kanak-kanak  ,7-9 tahun,1610,W.P. Labuan,Luar Bandar,226.23,Perempuan,15,2,2
+Remaja ,10-12 tahun,1930,W.P. Labuan,Luar Bandar,278.13,Lelaki,15,2,1
+Remaja ,10-12 tahun,1710,W.P. Labuan,Luar Bandar,275.37,Perempuan,15,2,2
+Remaja ,13-15 tahun,2210,W.P. Labuan,Luar Bandar,327.99,Lelaki,15,2,1
+Remaja ,13-15 tahun,1810,W.P. Labuan,Luar Bandar,299.6,Perempuan,15,2,2
+Remaja ,16-<18 tahun,2340,W.P. Labuan,Luar Bandar,417.93,Lelaki,15,2,1
+Remaja ,16-<18 tahun,1890,W.P. Labuan,Luar Bandar,299.85,Perempuan,15,2,2
+Dewasa ,18-29 tahun,2240,W.P. Labuan,Luar Bandar,299.3,Lelaki,15,2,1
+Dewasa ,18-29 tahun,1840,W.P. Labuan,Luar Bandar,284.15,Perempuan,15,2,2
+Dewasa ,30-59 tahun,2190,W.P. Labuan,Luar Bandar,299.3,Lelaki,15,2,1
+Dewasa ,30-59 tahun,1900,W.P. Labuan,Luar Bandar,299.3,Perempuan,15,2,2
+Warga Emas ,≥60 tahun,2030,W.P. Labuan,Luar Bandar,284.15,Lelaki,15,2,1
+Warga Emas ,≥60 tahun,1770,W.P. Labuan,Luar Bandar,281.39,Perempuan,15,2,2
+Bayi  ,6-8 bulan,570-680,W.P. Putrajaya,Bandar,26.11,Lelaki,16,1,1
+Bayi ,6-8 bulan,570-680,W.P. Putrajaya,Bandar,26.11,Perempuan,16,1,2
+Bayi  ,9-11 bulan,660-720,W.P. Putrajaya,Bandar,38.18,Lelaki,16,1,1
+Bayi ,9-11 bulan,660-720,W.P. Putrajaya,Bandar,38.18,Perempuan,16,1,2
+Kanak-kanak ,1-3 tahun,980,W.P. Putrajaya,Bandar,140.71,Lelaki,16,1,1
+Kanak-kanak  ,1-3 tahun,900,W.P. Putrajaya,Bandar,140.71,Perempuan,16,1,2
+Kanak-kanak ,4-6 tahun,1300,W.P. Putrajaya,Bandar,211.8,Lelaki,16,1,1
+Kanak-kanak  ,4-6 tahun,1210,W.P. Putrajaya,Bandar,173.39,Perempuan,16,1,2
+Kanak-kanak ,7-9 tahun,1750,W.P. Putrajaya,Bandar,284.79,Lelaki,16,1,1
+Kanak-kanak  ,7-9 tahun,1610,W.P. Putrajaya,Bandar,240.87,Perempuan,16,1,2
+Remaja ,10-12 tahun,1930,W.P. Putrajaya,Bandar,283.99,Lelaki,16,1,1
+Remaja ,10-12 tahun,1710,W.P. Putrajaya,Bandar,281.44,Perempuan,16,1,2
+Remaja ,13-15 tahun,2210,W.P. Putrajaya,Bandar,325.72,Lelaki,16,1,1
+Remaja ,13-15 tahun,1810,W.P. Putrajaya,Bandar,315.01,Perempuan,16,1,2
+Remaja ,16-<18 tahun,2340,W.P. Putrajaya,Bandar,358.89,Lelaki,16,1,1
+Remaja ,16-<18 tahun,1890,W.P. Putrajaya,Bandar,315.25,Perempuan,16,1,2
+Dewasa ,18-29 tahun,2240,W.P. Putrajaya,Bandar,316.21,Lelaki,16,1,1
+Dewasa ,18-29 tahun,1840,W.P. Putrajaya,Bandar,303.76,Perempuan,16,1,2
+Dewasa ,30-59 tahun,2190,W.P. Putrajaya,Bandar,316.21,Lelaki,16,1,1
+Dewasa ,30-59 tahun,1900,W.P. Putrajaya,Bandar,316.21,Perempuan,16,1,2
+Warga Emas ,≥60 tahun,2030,W.P. Putrajaya,Bandar,303.76,Lelaki,16,1,1
+Warga Emas ,≥60 tahun,1770,W.P. Putrajaya,Bandar,301.2,Perempuan,16,1,2
+Bayi  ,6-8 bulan,570-680,W.P. Putrajaya,Luar Bandar,0,Lelaki,16,2,1
+Bayi ,6-8 bulan,570-680,W.P. Putrajaya,Luar Bandar,0,Perempuan,16,2,2
+Bayi  ,9-11 bulan,660-720,W.P. Putrajaya,Luar Bandar,0,Lelaki,16,2,1
+Bayi ,9-11 bulan,660-720,W.P. Putrajaya,Luar Bandar,0,Perempuan,16,2,2
+Kanak-kanak ,1-3 tahun,980,W.P. Putrajaya,Luar Bandar,0,Lelaki,16,2,1
+Kanak-kanak  ,1-3 tahun,900,W.P. Putrajaya,Luar Bandar,0,Perempuan,16,2,2
+Kanak-kanak ,4-6 tahun,1300,W.P. Putrajaya,Luar Bandar,0,Lelaki,16,2,1
+Kanak-kanak  ,4-6 tahun,1210,W.P. Putrajaya,Luar Bandar,0,Perempuan,16,2,2
+Kanak-kanak ,7-9 tahun,1750,W.P. Putrajaya,Luar Bandar,0,Lelaki,16,2,1
+Kanak-kanak  ,7-9 tahun,1610,W.P. Putrajaya,Luar Bandar,0,Perempuan,16,2,2
+Remaja ,10-12 tahun,1930,W.P. Putrajaya,Luar Bandar,0,Lelaki,16,2,1
+Remaja ,10-12 tahun,1710,W.P. Putrajaya,Luar Bandar,0,Perempuan,16,2,2
+Remaja ,13-15 tahun,2210,W.P. Putrajaya,Luar Bandar,0,Lelaki,16,2,1
+Remaja ,13-15 tahun,1810,W.P. Putrajaya,Luar Bandar,0,Perempuan,16,2,2
+Remaja ,16-<18 tahun,2340,W.P. Putrajaya,Luar Bandar,0,Lelaki,16,2,1
+Remaja ,16-<18 tahun,1890,W.P. Putrajaya,Luar Bandar,0,Perempuan,16,2,2
+Dewasa ,18-29 tahun,2240,W.P. Putrajaya,Luar Bandar,0,Lelaki,16,2,1
+Dewasa ,18-29 tahun,1840,W.P. Putrajaya,Luar Bandar,0,Perempuan,16,2,2
+Dewasa ,30-59 tahun,2190,W.P. Putrajaya,Luar Bandar,0,Lelaki,16,2,1
+Dewasa ,30-59 tahun,1900,W.P. Putrajaya,Luar Bandar,0,Perempuan,16,2,2
+Warga Emas ,≥60 tahun,2030,W.P. Putrajaya,Luar Bandar,0,Lelaki,16,2,1
+Warga Emas ,≥60 tahun,1770,W.P. Putrajaya,Luar Bandar,0,Perempuan,16,2,2
