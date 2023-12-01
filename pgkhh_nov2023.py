@@ -231,8 +231,8 @@ def main():
     # Classification
     def calculate_status(row):
         conditions = [
-            row['INC_HH'] < row['totalFood_PLI'],
-            row['INC_HH'] < row['PGK']
+            total_income < row['totalFood_PLI'],
+            total_income < row['PGK']
         ]
         choices = ['Miskin Tegar', 'Miskin']
         return np.select(conditions, choices, default='Tidak Miskin')
