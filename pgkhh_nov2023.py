@@ -170,7 +170,9 @@ def main():
         return value
 
     # Calculate Food PLI
-    food_PLI = pd.read_csv('./foodpli_cal_v2.csv', usecols=['JANTINA_CODE', 'Umur', 'NEGERI_CODE', 'STRATA_CODE', 'totalFood_PLI'])
+    food_PLI = pd.read_csv('./foodpli_cal_v2.csv',
+                       usecols=['JANTINA_CODE', 'Umur', 'NEGERI_CODE', 'STRATA_CODE', 'totalFood_PLI'])
+
     mapping_dict = food_PLI.set_index(['JANTINA_CODE', 'Umur', 'NEGERI_CODE', 'STRATA_CODE']).to_dict()['totalFood_PLI']
 
     # Apply the function to calculate 'totalFood_PLI' for the single row
@@ -181,7 +183,8 @@ def main():
     padu['SUM_FPLI'] = sum_fpli
 
     # Calculate NFPLI
-    nonfood_PLI = pd.read_excel("nfoodpli_cal_v2.xlsx", sheet_name='Data PGK B.Makanan (p)')
+    nonfood_PLI = pd.read_excel("nfoodpli_cal_v2.xlsx", sheet_name='Data PGK B.Makanan (p)',
+                            dtype={"NEGERI_CODE": str, "STRATA_CODE": str})
 
     nonfood_PLI[['NEGERI_CODE', 'STRATA_CODE']] = nonfood_PLI[['NEGERI_CODE', 'STRATA_CODE']].apply(lambda x: x.astype(str))
 
