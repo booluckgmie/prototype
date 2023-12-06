@@ -224,7 +224,7 @@ def main():
     #     st.error(f"An error occurred: {e}. Kindly check your data.")
 
     # Total PLI @ PGK
-    padu['PGK'] = sum_fpli + padu['SUM_NFPLI']
+    padu['PGK'] = padu['SUM_FPLI'] + sum_nfpli
     pgk = padu['PGK'][0]
 
 
