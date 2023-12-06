@@ -191,7 +191,7 @@ def main():
     p_cloth = p_cloth * 27.737395 * hhsize
 
     p_rent = nonfood_PLI.set_index(['NEGERI_CODE', 'STRATA_CODE'])['Perumahan'][0]
-    p_rent = p_rent * 458.49397 * (hhsize ** 0.474518)
+    p_rent = (p_rent * 458.49397 * hhsize) ** 0.474518)
 
     p_durable = nonfood_PLI.set_index(['NEGERI_CODE', 'STRATA_CODE'])['Barang Tahan Lama'][0]
     p_durable = p_durable * 7.5236389 * hhsize
