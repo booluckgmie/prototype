@@ -183,27 +183,26 @@ def main():
 
     # Calculate NFPLI
     nonfood_PLI = pd.read_excel("nfoodpli_cal_v2.xlsx", sheet_name='Data PGK B.Makanan (p)',
-                                dtype={"NEGERI_CODE": str, "STRATA_CODE": str})
+                                dtype={"NEGERI_CODE": str, "STRATA_CODE": str})  
 
-    nonfood_PLI[['NEGERI_CODE', 'STRATA_CODE']] = nonfood_PLI[['NEGERI_CODE', 'STRATA_CODE']].apply(lambda x: x.astype(str))
 
-    p_cloth = nonfood_PLI.set_index(['NEGERI_CODE', 'STRATA_CODE'])['Pakaian'][0]
+    condition = (nonfood_PLI['NEGERI_CODE'].isin(padu['NEGERI_CODE'])) & (
+            nonfood_PLI['STRATA_CODE'].isin(padu['STRATA_CODE']))
+
+    # Extract 'Pakaian' value
+    p_cloth = nonfood_PLI.loc[condition, 'Pakaian'].values[0] if not condition.empty and condition.any() else 0
     p_cloth = p_cloth * 27.737395 * hhsize
-
-    p_rent = nonfood_PLI.set_index(['NEGERI_CODE', 'STRATA_CODE'])['Perumahan'][0]
-    p_rent = (p_rent * 458.49397 * hhsize) ** 0.474518
-
-    p_durable = nonfood_PLI.set_index(['NEGERI_CODE', 'STRATA_CODE'])['Barang Tahan Lama'][0]
+    p_rent = nonfood_PLI.loc[condition, 'Perumahan'].values[0] if not condition.empty and condition.any() else 0
+    p_rent = p_rent * 458.49397 * (hhsize ** 0.474518)
+    p_durable = nonfood_PLI.loc[condition, 'Barang Tahan Lama'].values[0] if not condition.empty and condition.any() else 0
     p_durable = p_durable * 7.5236389 * hhsize
-
-    p_transport = nonfood_PLI.set_index(['NEGERI_CODE', 'STRATA_CODE'])['Pengangkutan'][0]
+    p_transport = nonfood_PLI.loc[condition, 'Pengangkutan'].values[0] if not condition.empty and condition.any() else 0
     p_transport = p_transport * 73.48135 * hhsize
-
-    p_other = nonfood_PLI.set_index(['NEGERI_CODE', 'STRATA_CODE'])['Barang Bukan Makanan Lain'][0]
+    p_other = nonfood_PLI.loc[condition, 'Barang Bukan Makanan Lain'].values[0] if not condition.empty and condition.any() else 0
     p_other = p_other * 175.84981 * hhsize
 
-    # Assuming 'padu' is a DataFrame, add a new column 'totalNP_PLI' to it
     sum_nfpli = p_cloth + p_rent + p_durable + p_transport + p_other
+        
     padu['SUM_NFPLI'] = sum_nfpli
 
     # try:
