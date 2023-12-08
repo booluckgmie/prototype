@@ -241,14 +241,11 @@ def main():
 
     statusk = padu.apply(calculate_status, axis=1)[0]
 
-
-
     # kumpulan pendapatan 2022
     kump_pdptn = pd.read_csv("./kump_pdptn2022_v2.csv",
-                             usecols=['decile_min', 'decile_max', 'income_min', 'income_max', 'State', 'NEGERI_CODE', 'kump_main', 'kump_decile', 'KUMP_B60'],
-                             dtype={"NEGERI_CODE": str})
+                            usecols=['decile_min', 'decile_max', 'income_min', 'income_max', 'State', 'NEGERI_CODE', 'kump_main', 'kump_decile', 'KUMP_B60'],
+                            dtype={"NEGERI_CODE": str})
 
-    # Assume 'total_income' is a variable with the total income value you want to check
     kump_decile = None
     kump_main = None
     KUMP_B60 = None
@@ -257,14 +254,14 @@ def main():
         min_val = row['income_min']
         max_val = row['income_max']
 
-        if min_val <= total_income <= max_val and row['NEGERI_CODE'] == kump_pdptn['NEGERI_CODE'][0]:
+        if min_val <= total_income <= max_val and row['NEGERI_CODE'] == padu['NEGERI_CODE'][0]:
             kump_decile = row['kump_decile']
             kump_main = row['kump_main']
 
-            if kump_pdptn.loc[index, 'kump_decile'] == row['kump_decile']:
-                row['KUMP_B60'] = kump_pdptn.loc[index, 'KUMP_B60']
+            if kump_pdptn.loc[index, 'kump_decile'] == kump_decile:
                 KUMP_B60 = row['KUMP_B60']
                 break
+
             
     padu = padu[['Ahli','JANTINA','Umur','INC_HH','NEGERI_SEMASA','STRATA_SEMASA']]
     # Display the DataFrame and total income
@@ -289,7 +286,7 @@ def main():
         st.write(f"**STATUS:** {statusk}")
         st.write(f"**KUMP. PENDAPATAN:** {kump_main}")
         st.write(f"**KUMP. DECILE:** {kump_decile}")
-        st.write(f"**KUMP. B60:** {KUMP_B60}")    
+        st.write(f"**KUMP. B60:** {KUMP_B60}")      
         
 if __name__ == "__main__":
-    main()    
+    main()
