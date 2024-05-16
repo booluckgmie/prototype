@@ -114,7 +114,6 @@ print(tuned_gbm)
 # Define dropdown widgets for fixed columns
 negeri_dropdown = st.selectbox('Select NEGERI_SEMASA:', df3['NEGERI_SEMASA'].unique())
 daerah_placeholder = st.empty()
-strata_dropdown = st.selectbox('Select STRATA_SEMASA:', df3['STRATA_SEMASA'].unique())
 
 # Define function to update DAERAH_SEMASA dropdown options based on selected NEGERI_SEMASA
 def update_daerah_options():
@@ -125,6 +124,7 @@ def update_daerah_options():
 # Initial update of DAERAH_SEMASA dropdown
 daerah_dropdown_options = update_daerah_options()
 daerah_dropdown = st.selectbox('Select DAERAH_SEMASA:', daerah_dropdown_options)
+strata_dropdown = st.selectbox('Select STRATA_SEMASA:', df3['STRATA_SEMASA'].unique())
 
 # Define input for number of rows to generate
 num_rows = st.number_input('Number of rows:', value=1, min_value=1)
