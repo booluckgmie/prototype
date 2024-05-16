@@ -145,9 +145,9 @@ def predict_generated_data():
     # Calculate the sum of prediction labels
     total_pakw = predictions.sum()
     
-    # Display the predictions and total PAKW
-    st.write("Predicted PAKW for Generated Data:", predictions)
-    st.write("Total PAKW for Generated Data:", total_pakw)
+# Display the predictions and total PAKW
+st.write("Predicted PAKW for Generated Data:", predictions)
+st.write("Total PAKW for Generated Data:", total_pakw)
 
 # Check if the predict button is clicked
 if predict_button:
