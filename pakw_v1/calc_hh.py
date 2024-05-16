@@ -126,11 +126,6 @@ def update_daerah_options():
 daerah_dropdown_options = update_daerah_options()
 daerah_dropdown = st.selectbox('Select DAERAH_SEMASA:', daerah_dropdown_options)
 
-# Check for changes in NEGERI_SEMASA dropdown and update DAERAH_SEMASA dropdown accordingly
-if st.button("Update DAERAH_SEMASA Options"):
-    daerah_dropdown_options = update_daerah_options()
-    daerah_dropdown = st.selectbox('Select DAERAH_SEMASA:', daerah_dropdown_options)
-
 # Define input for number of rows to generate
 num_rows = st.number_input('Number of rows:', value=1, min_value=1)
 
