@@ -160,7 +160,9 @@ if generate_data_button:
     on_generate_data_button_clicked()
 
 # Predict model on new_data
-predictions = predict_model(tuned_gbm, data=df3)
-totalpakw = predictions['prediction_label'].sum()
+predictions = tuned_gbm.predict(df3)  # Use the model directly to make predictions
 st.write(predictions)
+
+# Calculate the sum of prediction labels
+totalpakw = predictions.sum()
 st.write("\nPAKW HH :", totalpakw)
