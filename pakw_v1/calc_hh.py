@@ -158,14 +158,14 @@ def generate_data_rows():
     ]
     return pd.DataFrame(data, columns=['UMUR_KSH', 'NEGERI_SEMASA', 'DAERAH_SEMASA', 'STRATA_SEMASA', 'JANTINA'])
 
-# Display generated data if button is clicked
-if generate_data_button:
-    new_data = generate_data_rows()
-    st.write("Generated Data:", new_data)
+# # Display generated data if button is clicked
+# if generate_data_button:
+#     new_data = generate_data_rows()
+#     st.write("Generated Data:", new_data)
 
 
-# Button to trigger prediction
-predict_button = st.button("Predict Generated Data")
+# # Button to trigger prediction
+# predict_button = st.button("Predict Generated Data")
 
 # # Function to predict generated data
 # def predict_generated_data():
@@ -175,20 +175,55 @@ predict_button = st.button("Predict Generated Data")
 #     st.write("Predicted PAKW for Generated Data:", predictions)
 #     st.write("Total PAKW for Generated Data:", total_pakw)
 
+
+# # Check if the predict button is clicked
+# if predict_button:
+#     predict_generated_data()
+
+# # Button to trigger reset
+# reset_button = st.button("Reset")
+
+# # Function to reset generated data and prediction results
+# def reset_data():
+#     st.write("Generated Data and Prediction Results Reset")
+#     st.empty()  # Clear the output
+
+# # Check if the reset button is clicked
+# if reset_button:
+#     reset_data()
+
+# Divide the layout into three columns for buttons
+col1, col2, col3 = st.columns(3)
+
+# Display generated data if button is clicked
+if generate_data_button:
+    new_data = generate_data_rows()
+    col1.write("Generated Data:", new_data)
+
+# Button to trigger prediction
+predict_button = col2.button("Predict Generated Data")
+
 # Function to predict generated data
 def predict_generated_data():
     new_data = generate_data_rows()
     predictions = tuned_gbm.predict(new_data)
     total_pakw = predictions.sum()
-    
-    # Lookup data from df3 for specified columns
-    ksh_columns = ['KSH_PAKAIAN', 'KSH_PERUMAHAN', 'KSH_BRG_THN_LAMA', 'KSH_PENGANGKUTAN', 'KSH_LAIN_LAIN', 'KSH_MAKANAN_TOTAL', 'KSH_BMAKANAN_TOTAL']
-    ksh_values = df3[df3.index.isin(new_data.index)][ksh_columns].sum()
-    
-    st.write("Predicted PAKW for Generated Data:", predictions)
-    st.write("Total PAKW for Generated Data:", total_pakw)
-    st.write("Total KSH_INDIVIDU_TOTAL for Generated Data:", ksh_values['KSH_BMAKANAN_TOTAL'])
+    col2.write("Predicted PAKW for Generated Data:", predictions)
+    col2.write("Total PAKW for Generated Data:", total_pakw)
 
 # Check if the predict button is clicked
 if predict_button:
     predict_generated_data()
+
+# Button to trigger reset
+reset_button = col3.button("Reset")
+
+# Function to reset generated data and prediction results
+def reset_data():
+    col3.write("Generated Data and Prediction Results Reset")
+    col3.empty()  # Clear the output
+
+# Check if the reset button is clicked
+if reset_button:
+    reset_data()
+
