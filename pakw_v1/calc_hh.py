@@ -115,11 +115,14 @@ df3 = df3.dropna(thresh=df3.shape[1] - 3)
 # Display the resulting DataFrame
 # st.write(df3.tail())
 
+#========================================================================
 # Read the tuned model
 from pycaret.regression import load_model, predict_model
 
 # Load the tuned model
-tuned_gbm = pickle.load(open('./tune_PAKW', 'rb'))
+tuned_gbm = pickle.load(open('.\tune_PAKW.pkl', 'rb'))
+
+#========================================================================
 
 # Define dropdown widgets for fixed columns
 negeri_dropdown = st.selectbox('Select NEGERI_SEMASA:', df3['NEGERI_SEMASA'].unique())
