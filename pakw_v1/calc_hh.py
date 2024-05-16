@@ -1,6 +1,11 @@
+import os
 import pandas as pd
-import math
+import numpy as np
+from datetime import datetime
 import streamlit as st
+import base64
+
+pd.set_option('display.float_format', '{:.2f}'.format)
 
 # Read the data into DataFrame 'dfn'
 dfn = pd.read_csv('https://github.com/booluckgmie/sharecode/raw/master/data/indv_stats.csv')
