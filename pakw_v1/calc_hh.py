@@ -143,7 +143,7 @@ def predict_generated_data():
     predictions = tuned_gbm.predict(new_data)
     total_pakw = predictions.sum()
     st.write("Predicted PAKW for Generated Data:")
-    st.write(pd.concat([new_data[['UMUR_KSH', 'NEGERI_SEMASA', 'DAERAH_SEMASA', 'STRATA_SEMASA', 'JANTINA']], predictions], axis=1))
+    st.write(pd.concat([predictions[['UMUR_KSH', 'NEGERI_SEMASA', 'DAERAH_SEMASA', 'STRATA_SEMASA', 'JANTINA']], predictions], axis=1))
     st.write("Total PAKW for Generated Data:", total_pakw)
 
 
