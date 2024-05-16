@@ -138,8 +138,12 @@ generate_data_button = st.button("Generate Data")
 
 # Function to generate data rows based on selected values
 def generate_data_rows():
+    negeri_value = negeri_dropdown
+    daerah_value = daerah_dropdown
+    strata_value = strata_dropdown
+    
     data = [
-        [umur_widgets[i], negeri_dropdown, daerah_dropdown, strata_dropdown, jantina_widgets[i]]
+        [umur_widgets[i], negeri_value, daerah_value, strata_value, jantina_widgets[i]]
         for i in range(num_rows)
     ]
     return pd.DataFrame(data, columns=['UMUR_KSH', 'NEGERI_SEMASA', 'DAERAH_SEMASA', 'STRATA_SEMASA', 'JANTINA'])
@@ -148,6 +152,7 @@ def generate_data_rows():
 if generate_data_button:
     new_data = generate_data_rows()
     st.write("Generated Data:", new_data)
+
 
 # Button to trigger prediction
 predict_button = st.button("Predict Generated Data")
