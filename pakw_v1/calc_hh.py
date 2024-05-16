@@ -162,7 +162,7 @@ def predict_generated_data():
     new_data = generate_data_rows()
     predictions = tuned_gbm.predict(new_data)
     total_pakw = predictions.sum()
-    st.write("Predicted PAKW for Generated Data:" predictions)
+    st.write("Predicted PAKW for Generated Data:", predictions)
     st.write("Total PAKW for Generated Data:", total_pakw)
 
 
