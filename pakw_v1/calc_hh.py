@@ -66,17 +66,11 @@ gender_mapping = {
 
 df2['JANTINA'] = dfn['JANTINA'].map(gender_mapping)
 
-# Display the first few rows of DataFrame 'df2'
-# st.write(df2.head())
-
 # Assuming df2 is your DataFrame
 contains_slash_or_bracket = df2['DAERAH_SEMASA'].str.contains(r'[/()]', na=False)
 
 # Filter the DataFrame based on the condition
 df_filtered = df2[contains_slash_or_bracket]
-
-# Display the filtered DataFrame
-# st.write(df_filtered)
 
 # Assuming df2 is your DataFrame
 replace_dict = {
@@ -87,14 +81,8 @@ replace_dict = {
 
 df2['DAERAH_SEMASA'] = df2['DAERAH_SEMASA'].replace(replace_dict)
 
-# Display unique values of 'DAERAH_SEMASA'
-# st.write(df2['DAERAH_SEMASA'].unique())
-
 # Assuming df2 is your DataFrame
 df2['DAERAH_SEMASA'] = df2['DAERAH_SEMASA'].str.split(r'[/()]').str.get(0)
-
-# Display the updated DataFrame
-# st.write(df2[df2['DAERAH_SEMASA']=='Jasin'])
 
 df2['UMUR_KSH']= df2['UMUR_KSH'].str.replace('?', '>')
 
@@ -111,9 +99,6 @@ df3['KSH_INDIVIDU_TOTAL'] = df3[['KSH_BMAKANAN_TOTAL', 'KSH_MAKANAN_TOTAL']].sum
 
 # Drop rows with more than 3 NaN values
 df3 = df3.dropna(thresh=df3.shape[1] - 3)
-
-# Display the resulting DataFrame
-# st.write(df3.tail())
 
 #========================================================================
 # Read the tuned model
@@ -139,6 +124,9 @@ jantina_widgets = [st.selectbox(f'JANTINA {i+1}:', df3['JANTINA'].unique()) for 
 # Button to trigger data generation
 generate_data_button = st.button("Generate Data")
 
+# Button to trigger prediction
+predict_button = st.button("Predict Generated Data")
+
 # Function to generate data rows based on selected values
 def generate_data_rows():
     data = [
@@ -147,22 +135,21 @@ def generate_data_rows():
     ]
     return pd.DataFrame(data, columns=['UMUR_KSH', 'NEGERI_SEMASA', 'DAERAH_SEMASA', 'STRATA_SEMASA', 'JANTINA'])
 
-# Function to display and save generated data rows
-def on_generate_data_button_clicked():
-    new_rows = generate_data_rows()
-    st.write(new_rows)
+def predict_generated_data():
+    # Generate the new data based on the selected values
+    new_data = generate_data_rows()
+    
+    # Predict using the tuned model
+    predictions = tuned_gbm.predict(new_data)
+    
+    # Calculate the sum of prediction labels
+    total_pakw = predictions.sum()
+    
+    # Display the predictions and total PAKW
+    st.write("Predicted PAKW for Generated Data:", predictions)
+    st.write("Total PAKW for Generated Data:", total_pakw)
 
-# Display initial widgets
-st.write(negeri_dropdown, daerah_dropdown, strata_dropdown, num_rows, generate_data_button)
+# Check if the predict button is clicked
+if predict_button:
+    predict_generated_data()
 
-# Check if the button is clicked
-if generate_data_button:
-    on_generate_data_button_clicked()
-
-# Predict model on new_data
-predictions = tuned_gbm.predict(df3)  # Use the model directly to make predictions
-st.write(predictions)
-
-# Calculate the sum of prediction labels
-totalpakw = predictions.sum()
-st.write("\nPAKW HH :", totalpakw)
