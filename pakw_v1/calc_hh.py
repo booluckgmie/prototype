@@ -106,45 +106,45 @@ from pycaret.regression import load_model, predict_model
 tuned_gbm = load_model('pakw_v1/tune_PAKW')
 print(tuned_gbm)
 
-# # Define dropdown widgets for fixed columns
-# negeri_dropdown = st.selectbox('Select NEGERI_SEMASA:', df3['NEGERI_SEMASA'].unique())
-# daerah_dropdown = st.selectbox('Select DAERAH_SEMASA:', df3['DAERAH_SEMASA'].unique())
-# strata_dropdown = st.selectbox('Select STRATA_SEMASA:', df3['STRATA_SEMASA'].unique())
+# Define dropdown widgets for fixed columns
+negeri_dropdown = st.selectbox('Select NEGERI_SEMASA:', df3['NEGERI_SEMASA'].unique())
+daerah_dropdown = st.selectbox('Select DAERAH_SEMASA:', df3['DAERAH_SEMASA'].unique())
+strata_dropdown = st.selectbox('Select STRATA_SEMASA:', df3['STRATA_SEMASA'].unique())
 
-# # Define input for number of rows to generate
-# num_rows = st.number_input('Number of rows:', value=1, min_value=1)
+# Define input for number of rows to generate
+num_rows = st.number_input('Number of rows:', value=1, min_value=1)
 
-# # Generate input widgets for UMUR_KSH and JANTINA
-# umur_widgets = [st.selectbox(f'UMUR_KSH {i+1}:', df3['UMUR_KSH'].unique()) for i in range(num_rows)]
-# jantina_widgets = [st.selectbox(f'JANTINA {i+1}:', df3['JANTINA'].unique()) for i in range(num_rows)]
+# Generate input widgets for UMUR_KSH and JANTINA
+umur_widgets = [st.selectbox(f'UMUR_KSH {i+1}:', df3['UMUR_KSH'].unique()) for i in range(num_rows)]
+jantina_widgets = [st.selectbox(f'JANTINA {i+1}:', df3['JANTINA'].unique()) for i in range(num_rows)]
 
-# # Button to trigger data generation
-# generate_data_button = st.button("Generate Data")
+# Button to trigger data generation
+generate_data_button = st.button("Generate Data")
 
-# # Function to generate data rows based on selected values
-# def generate_data_rows():
-#     data = [
-#         [umur_widgets[i], negeri_dropdown, daerah_dropdown, strata_dropdown, jantina_widgets[i]]
-#         for i in range(num_rows)
-#     ]
-#     return pd.DataFrame(data, columns=['UMUR_KSH', 'NEGERI_SEMASA', 'DAERAH_SEMASA', 'STRATA_SEMASA', 'JANTINA'])
+# Function to generate data rows based on selected values
+def generate_data_rows():
+    data = [
+        [umur_widgets[i], negeri_dropdown, daerah_dropdown, strata_dropdown, jantina_widgets[i]]
+        for i in range(num_rows)
+    ]
+    return pd.DataFrame(data, columns=['UMUR_KSH', 'NEGERI_SEMASA', 'DAERAH_SEMASA', 'STRATA_SEMASA', 'JANTINA'])
 
-# # Display generated data if button is clicked
-# if generate_data_button:
-#     new_data = generate_data_rows()
-#     st.write("Generated Data:", new_data)
+# Display generated data if button is clicked
+if generate_data_button:
+    new_data = generate_data_rows()
+    st.write("Generated Data:", new_data)
 
-# # Button to trigger prediction
-# predict_button = st.button("Predict Generated Data")
+# Button to trigger prediction
+predict_button = st.button("Predict Generated Data")
 
-# # Function to predict generated data
-# def predict_generated_data():
-#     new_data = generate_data_rows()
-#     predictions = tuned_gbm.predict(new_data)
-#     total_pakw = predictions.sum()
-#     st.write("Predicted PAKW for Generated Data:", predictions)
-#     st.write("Total PAKW for Generated Data:", total_pakw)
+# Function to predict generated data
+def predict_generated_data():
+    new_data = generate_data_rows()
+    predictions = tuned_gbm.predict(new_data)
+    total_pakw = predictions.sum()
+    st.write("Predicted PAKW for Generated Data:", predictions)
+    st.write("Total PAKW for Generated Data:", total_pakw)
 
-# # Check if the predict button is clicked
-# if predict_button:
-#     predict_generated_data()
+# Check if the predict button is clicked
+if predict_button:
+    predict_generated_data()
