@@ -167,14 +167,27 @@ if generate_data_button:
 # Button to trigger prediction
 predict_button = st.button("Predict Generated Data")
 
+# # Function to predict generated data
+# def predict_generated_data():
+#     new_data = generate_data_rows()
+#     predictions = tuned_gbm.predict(new_data)
+#     total_pakw = predictions.sum()
+#     st.write("Predicted PAKW for Generated Data:", predictions)
+#     st.write("Total PAKW for Generated Data:", total_pakw)
+
 # Function to predict generated data
 def predict_generated_data():
     new_data = generate_data_rows()
     predictions = tuned_gbm.predict(new_data)
     total_pakw = predictions.sum()
+    
+    # Lookup data from df3 for specified columns
+    ksh_columns = ['KSH_PAKAIAN', 'KSH_PERUMAHAN', 'KSH_BRG_THN_LAMA', 'KSH_PENGANGKUTAN', 'KSH_LAIN_LAIN', 'KSH_MAKANAN_TOTAL', 'KSH_BMAKANAN_TOTAL']
+    ksh_values = df3[df3.index.isin(new_data.index)][ksh_columns].sum()
+    
     st.write("Predicted PAKW for Generated Data:", predictions)
     st.write("Total PAKW for Generated Data:", total_pakw)
-
+    st.write("Total KSH_INDIVIDU_TOTAL for Generated Data:", ksh_values['KSH_BMAKANAN_TOTAL'])
 
 # Check if the predict button is clicked
 if predict_button:
