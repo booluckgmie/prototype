@@ -106,10 +106,30 @@ from pycaret.regression import load_model, predict_model
 tuned_gbm = load_model('pakw_v1/tune_PAKW')
 print(tuned_gbm)
 
+# # Define dropdown widgets for fixed columns
+# negeri_dropdown = st.selectbox('Select NEGERI_SEMASA:', df3['NEGERI_SEMASA'].unique())
+# daerah_dropdown = st.selectbox('Select DAERAH_SEMASA:', df3['DAERAH_SEMASA'].unique())
+# strata_dropdown = st.selectbox('Select STRATA_SEMASA:', df3['STRATA_SEMASA'].unique())
+
 # Define dropdown widgets for fixed columns
 negeri_dropdown = st.selectbox('Select NEGERI_SEMASA:', df3['NEGERI_SEMASA'].unique())
-daerah_dropdown = st.selectbox('Select DAERAH_SEMASA:', df3['DAERAH_SEMASA'].unique())
+daerah_placeholder = st.empty()
 strata_dropdown = st.selectbox('Select STRATA_SEMASA:', df3['STRATA_SEMASA'].unique())
+
+# Define function to update DAERAH_SEMASA dropdown options based on selected NEGERI_SEMASA
+def update_daerah_options():
+    selected_negeri = negeri_dropdown
+    daerah_options = df3[df3['NEGERI_SEMASA'] == selected_negeri]['DAERAH_SEMASA'].unique()
+    return daerah_options
+
+# Initial update of DAERAH_SEMASA dropdown
+daerah_dropdown_options = update_daerah_options()
+daerah_dropdown = st.selectbox('Select DAERAH_SEMASA:', daerah_dropdown_options)
+
+# Check for changes in NEGERI_SEMASA dropdown and update DAERAH_SEMASA dropdown accordingly
+if st.button("Update DAERAH_SEMASA Options"):
+    daerah_dropdown_options = update_daerah_options()
+    daerah_dropdown = st.selectbox('Select DAERAH_SEMASA:', daerah_dropdown_options)
 
 # Define input for number of rows to generate
 num_rows = st.number_input('Number of rows:', value=1, min_value=1)
@@ -142,8 +162,7 @@ def predict_generated_data():
     new_data = generate_data_rows()
     predictions = tuned_gbm.predict(new_data)
     total_pakw = predictions.sum()
-    st.write("Predicted PAKW for Generated Data:")
-    st.write(pd.concat([predictions[['UMUR_KSH', 'NEGERI_SEMASA', 'DAERAH_SEMASA', 'STRATA_SEMASA', 'JANTINA']], predictions], axis=1))
+    st.write("Predicted PAKW for Generated Data:" predictions)
     st.write("Total PAKW for Generated Data:", total_pakw)
 
 
