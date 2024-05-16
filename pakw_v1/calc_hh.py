@@ -115,7 +115,7 @@ df3 = df3.dropna(thresh=df3.shape[1] - 3)
 
 # Read the tuned model
 from pycaret.regression import load_model, predict_model
-tuned_gbm = load_model('./tune_PAKW')
+tuned_gbm = load_model(r'https://github.com/booluckgmie/prototype/raw/main/pakw_v1/tune_PAKW')
 
 # Define dropdown widgets for fixed columns
 negeri_dropdown = st.selectbox('Select NEGERI_SEMASA:', df3['NEGERI_SEMASA'].unique())
