@@ -165,7 +165,7 @@ def predict_generated_data():
     new_data = generate_data_rows()
     predictions = tuned_gbm.predict(new_data)
     total_pakw = predictions.sum()
-    st.write("Predicted PAKW for Individual:", predictions)
+    st.write("Predicted PAKW mengikut Individual:", predictions)
     st.write("Total PAKW:", total_pakw)
 
 
@@ -178,7 +178,7 @@ reset_button = st.button("Reset")
 
 # Function to reset generated data and prediction results
 def reset_data():
-    st.write("Generated Data and Prediction Results Reset")
+    st.write("Reset the INPUT")
     st.empty()  # Clear the output
 
 # Check if the reset button is clicked
