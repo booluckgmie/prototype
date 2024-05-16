@@ -120,7 +120,7 @@ df3 = df3.dropna(thresh=df3.shape[1] - 3)
 from pycaret.regression import load_model, predict_model
 
 # Load the tuned model
-tuned_gbm = pickle.load(open('.\tune_PAKW.pkl', 'rb'))
+tuned_gbm = pickle.load(open('pakw_v1/tune_PAKW.pkl', 'rb'))
 
 #========================================================================
 
