@@ -65,7 +65,7 @@ gender_mapping = {
 df2['JANTINA'] = dfn['JANTINA'].map(gender_mapping)
 
 # Display the first few rows of DataFrame 'df2'
-st.write(df2.head())
+# st.write(df2.head())
 
 # Assuming df2 is your DataFrame
 contains_slash_or_bracket = df2['DAERAH_SEMASA'].str.contains(r'[/()]', na=False)
@@ -74,7 +74,7 @@ contains_slash_or_bracket = df2['DAERAH_SEMASA'].str.contains(r'[/()]', na=False
 df_filtered = df2[contains_slash_or_bracket]
 
 # Display the filtered DataFrame
-st.write(df_filtered)
+# st.write(df_filtered)
 
 # Assuming df2 is your DataFrame
 replace_dict = {
@@ -86,13 +86,13 @@ replace_dict = {
 df2['DAERAH_SEMASA'] = df2['DAERAH_SEMASA'].replace(replace_dict)
 
 # Display unique values of 'DAERAH_SEMASA'
-st.write(df2['DAERAH_SEMASA'].unique())
+# st.write(df2['DAERAH_SEMASA'].unique())
 
 # Assuming df2 is your DataFrame
 df2['DAERAH_SEMASA'] = df2['DAERAH_SEMASA'].str.split(r'[/()]').str.get(0)
 
 # Display the updated DataFrame
-st.write(df2[df2['DAERAH_SEMASA']=='Jasin'])
+# st.write(df2[df2['DAERAH_SEMASA']=='Jasin'])
 
 df2['UMUR_KSH']= df2['UMUR_KSH'].str.replace('?', '>')
 
@@ -111,7 +111,7 @@ df3['KSH_INDIVIDU_TOTAL'] = df3[['KSH_BMAKANAN_TOTAL', 'KSH_MAKANAN_TOTAL']].sum
 df3 = df3.dropna(thresh=df3.shape[1] - 3)
 
 # Display the resulting DataFrame
-st.write(df3.tail())
+# st.write(df3.tail())
 
 # Read the tuned model
 from pycaret.regression import load_model, predict_model
