@@ -103,7 +103,7 @@ from pycaret.regression import load_model, predict_model
 # tuned_gbm = pickle.load(open('pakw_v1/tune_PAKW.pkl', 'rb'))
 from pycaret.regression import load_model, predict_model
 
-tuned_gbm = load_model('pakw_v1/tune_PAKW.pkl')
+tuned_gbm = load_model('pakw_v1/tune_PAKW')
 print(tuned_gbm)
 
 # # Define dropdown widgets for fixed columns
