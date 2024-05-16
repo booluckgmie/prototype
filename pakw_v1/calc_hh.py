@@ -129,9 +129,19 @@ strata_dropdown = st.selectbox('Select STRATA_SEMASA:', df3['STRATA_SEMASA'].uni
 # Define input for number of rows to generate
 num_rows = st.number_input('Number of rows:', value=1, min_value=1)
 
+# # Generate input widgets for UMUR_KSH and JANTINA
+# umur_widgets = [st.selectbox(f'UMUR_KSH {i+1}:', df3['UMUR_KSH'].unique()) for i in range(num_rows)]
+# jantina_widgets = [st.selectbox(f'JANTINA {i+1}:', df3['JANTINA'].unique()) for i in range(num_rows)]
+
 # Generate input widgets for UMUR_KSH and JANTINA
-umur_widgets = [st.selectbox(f'UMUR_KSH {i+1}:', df3['UMUR_KSH'].unique()) for i in range(num_rows)]
-jantina_widgets = [st.selectbox(f'JANTINA {i+1}:', df3['JANTINA'].unique()) for i in range(num_rows)]
+col1, col2 = st.columns(2)  # Divide the layout into two columns
+
+with col1:
+    umur_widgets = [st.selectbox(f'UMUR_KSH {i+1}:', df3['UMUR_KSH'].unique()) for i in range(num_rows)]
+
+with col2:
+    jantina_widgets = [st.selectbox(f'JANTINA {i+1}:', df3['JANTINA'].unique()) for i in range(num_rows)]
+
 
 # Button to trigger data generation
 generate_data_button = st.button("Generate Data")
