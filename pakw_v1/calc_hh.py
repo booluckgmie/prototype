@@ -114,6 +114,7 @@ df3 = df3.dropna(thresh=df3.shape[1] - 3)
 st.write(df3.tail())
 
 # Read the tuned model
+from pycaret.regression import load_model, predict_model
 tuned_gbm = load_model('./tune_PAKW')
 
 # Define dropdown widgets for fixed columns
