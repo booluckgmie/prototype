@@ -120,7 +120,7 @@ from pycaret.regression import load_model, predict_model
 # Load the tuned model
 # tuned_gbm = load_model('./tune_PAKW')
 # Load the tuned model from the Joblib file
-tuned_gbm = joblib.load('./tuned_gbm.joblib')
+tuned_gbm = joblib.load('.\tuned_gbm.joblib')
 
 
 # Save the model to disk
