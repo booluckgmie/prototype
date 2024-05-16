@@ -4,6 +4,7 @@ import numpy as np
 from datetime import datetime
 import streamlit as st
 import base64
+import joblib
 
 pd.set_option('display.float_format', '{:.2f}'.format)
 
@@ -116,7 +117,14 @@ df3 = df3.dropna(thresh=df3.shape[1] - 3)
 # Read the tuned model
 from pycaret.regression import load_model, predict_model
 
+# Load the tuned model
 tuned_gbm = load_model('./tune_PAKW')
+
+# Define the path where you want to save the Joblib file
+joblib_file = "./tuned_gbm.joblib"
+
+# Save the model to disk
+joblib.dump(tuned_gbm, joblib_file)
 
 
 # Define dropdown widgets for fixed columns
