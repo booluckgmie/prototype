@@ -38,7 +38,6 @@ state_mapping = {
 # Map the values in the 'NEGERI_SEMASA' column to their corresponding state names
 df2['NEGERI_SEMASA'] = dfn['NEGERI_SEMASA'].map(state_mapping)
 
-## mapping district
 # Read the 'code_district.csv' file to get the mapping between district codes and district names
 district_code = pd.read_csv('https://github.com/booluckgmie/sharecode/raw/master/data/code_district.csv')
 
@@ -48,8 +47,7 @@ district_mapping = dict(zip(district_code['code_district'], district_code['distr
 # Map the district codes to district names and populate the 'DAERAH_SEMASA' column in DataFrame 'df2'
 df2['DAERAH_SEMASA'] = dfn['DAERAH_SEMASA'].map(district_mapping)
 
-## mapping strata
-# Define the mapping dictionary for states
+# Define the mapping dictionary for strata
 strata_mapping = {
     1.0: 'BANDAR',
     2.0: 'LUAR BANDAR'
@@ -57,8 +55,7 @@ strata_mapping = {
 
 df2['STRATA_SEMASA'] = dfn['STRATA_SEMASA'].map(strata_mapping)
 
-## mapping jantina
-# Define the mapping dictionary for jantina
+# Define the mapping dictionary for gender
 gender_mapping = {
     1.0: 'LELAKI',
     2.0: 'PEREMPUAN'
@@ -66,13 +63,11 @@ gender_mapping = {
 
 df2['JANTINA'] = dfn['JANTINA'].map(gender_mapping)
 
-# Assuming df2 is your DataFrame
+# Filter the DataFrame for rows where 'DAERAH_SEMASA' contains slash or bracket
 contains_slash_or_bracket = df2['DAERAH_SEMASA'].str.contains(r'[/()]', na=False)
-
-# Filter the DataFrame based on the condition
 df_filtered = df2[contains_slash_or_bracket]
 
-# Assuming df2 is your DataFrame
+# Replace specific district names
 replace_dict = {
     'W.P. KUALA LUMPUR': 'W.P. Kuala Lumpur',
     'W.P. PUTRAJAYA': 'W.P. Putrajaya',
@@ -81,10 +76,11 @@ replace_dict = {
 
 df2['DAERAH_SEMASA'] = df2['DAERAH_SEMASA'].replace(replace_dict)
 
-# Assuming df2 is your DataFrame
+# Split district names and retain the first part
 df2['DAERAH_SEMASA'] = df2['DAERAH_SEMASA'].str.split(r'[/()]').str.get(0)
 
-df2['UMUR_KSH']= df2['UMUR_KSH'].str.replace('?', '>')
+# Replace '?' with '>' in 'UMUR_KSH'
+df2['UMUR_KSH'] = df2['UMUR_KSH'].str.replace('?', '>')
 
 # Select columns of interest into df3
 df3 = df2[['UMUR_KSH', 'NEGERI_SEMASA', 'DAERAH_SEMASA', 'STRATA_SEMASA',
@@ -100,14 +96,11 @@ df3['KSH_INDIVIDU_TOTAL'] = df3[['KSH_BMAKANAN_TOTAL', 'KSH_MAKANAN_TOTAL']].sum
 # Drop rows with more than 3 NaN values
 df3 = df3.dropna(thresh=df3.shape[1] - 3)
 
-#========================================================================
 # Read the tuned model
 from pycaret.regression import load_model, predict_model
 
 # Load the tuned model
 tuned_gbm = pickle.load(open('pakw_v1/tune_PAKW.pkl', 'rb'))
-
-#========================================================================
 
 # Define dropdown widgets for fixed columns
 negeri_dropdown = st.selectbox('Select NEGERI_SEMASA:', df3['NEGERI_SEMASA'].unique())
@@ -124,9 +117,6 @@ jantina_widgets = [st.selectbox(f'JANTINA {i+1}:', df3['JANTINA'].unique()) for 
 # Button to trigger data generation
 generate_data_button = st.button("Generate Data")
 
-# Button to trigger prediction
-predict_button = st.button("Predict Generated Data")
-
 # Function to generate data rows based on selected values
 def generate_data_rows():
     data = [
@@ -135,22 +125,22 @@ def generate_data_rows():
     ]
     return pd.DataFrame(data, columns=['UMUR_KSH', 'NEGERI_SEMASA', 'DAERAH_SEMASA', 'STRATA_SEMASA', 'JANTINA'])
 
-def predict_generated_data():
-    # Generate the new data based on the selected values
+# Display generated data if button is clicked
+if generate_data_button:
     new_data = generate_data_rows()
-    
-    # Predict using the tuned model
+    st.write("Generated Data:", new_data)
+
+# Button to trigger prediction
+predict_button = st.button("Predict Generated Data")
+
+# Function to predict generated data
+def predict_generated_data():
+    new_data = generate_data_rows()
     predictions = tuned_gbm.predict(new_data)
-    
-    # Calculate the sum of prediction labels
     total_pakw = predictions.sum()
-    
-    # Display the predictions and total PAKW
     st.write("Predicted PAKW for Generated Data:", predictions)
     st.write("Total PAKW for Generated Data:", total_pakw)
 
 # Check if the predict button is clicked
 if predict_button:
     predict_generated_data()
-
-
