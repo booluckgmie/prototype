@@ -118,10 +118,10 @@ df3 = df3.dropna(thresh=df3.shape[1] - 3)
 from pycaret.regression import load_model, predict_model
 
 # Load the tuned model
-tuned_gbm = load_model('./tune_PAKW')
+# tuned_gbm = load_model('./tune_PAKW')
+# Load the tuned model from the Joblib file
+tuned_gbm = joblib.load('./tuned_gbm.joblib')
 
-# Define the path where you want to save the Joblib file
-joblib_file = "./tuned_gbm.joblib"
 
 # Save the model to disk
 joblib.dump(tuned_gbm, joblib_file)
