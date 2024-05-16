@@ -106,6 +106,8 @@ from pycaret.regression import load_model, predict_model
 tuned_gbm = load_model('pakw_v1/tune_PAKW')
 print(tuned_gbm)
 
+st.title('Pengiraan PAKW by HH : Beta 1.0')
+
 # # Define dropdown widgets for fixed columns
 # negeri_dropdown = st.selectbox('Select NEGERI_SEMASA:', df3['NEGERI_SEMASA'].unique())
 # daerah_dropdown = st.selectbox('Select DAERAH_SEMASA:', df3['DAERAH_SEMASA'].unique())
