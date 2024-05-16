@@ -108,13 +108,8 @@ print(tuned_gbm)
 
 st.title('Pengiraan PAKW by HH : Beta 1.0')
 
-# # Define dropdown widgets for fixed columns
-# negeri_dropdown = st.selectbox('Select NEGERI_SEMASA:', df3['NEGERI_SEMASA'].unique())
-# daerah_dropdown = st.selectbox('Select DAERAH_SEMASA:', df3['DAERAH_SEMASA'].unique())
-# strata_dropdown = st.selectbox('Select STRATA_SEMASA:', df3['STRATA_SEMASA'].unique())
-
 # Define dropdown widgets for fixed columns
-negeri_dropdown = st.selectbox('Select NEGERI_SEMASA:', df3['NEGERI_SEMASA'].unique())
+negeri_dropdown = st.selectbox('Pilih NEGERI:', df3['NEGERI_SEMASA'].unique())
 daerah_placeholder = st.empty()
 
 # Define function to update DAERAH_SEMASA dropdown options based on selected NEGERI_SEMASA
@@ -125,28 +120,24 @@ def update_daerah_options():
 
 # Initial update of DAERAH_SEMASA dropdown
 daerah_dropdown_options = update_daerah_options()
-daerah_dropdown = st.selectbox('Select DAERAH_SEMASA:', daerah_dropdown_options)
-strata_dropdown = st.selectbox('Select STRATA_SEMASA:', df3['STRATA_SEMASA'].unique())
+daerah_dropdown = st.selectbox('Pilih DAERAH:', daerah_dropdown_options)
+strata_dropdown = st.selectbox('Pilih STRATA:', df3['STRATA_SEMASA'].unique())
 
 # Define input for number of rows to generate
-num_rows = st.number_input('Number of rows:', value=1, min_value=1)
-
-# # Generate input widgets for UMUR_KSH and JANTINA
-# umur_widgets = [st.selectbox(f'UMUR_KSH {i+1}:', df3['UMUR_KSH'].unique()) for i in range(num_rows)]
-# jantina_widgets = [st.selectbox(f'JANTINA {i+1}:', df3['JANTINA'].unique()) for i in range(num_rows)]
+num_rows = st.number_input('Bilangan Isi Rumah:', value=1, min_value=1)
 
 # Generate input widgets for UMUR_KSH and JANTINA
 col1, col2 = st.columns(2)  # Divide the layout into two columns
 
 with col1:
-    umur_widgets = [st.selectbox(f'UMUR_KSH {i+1}:', df3['UMUR_KSH'].unique()) for i in range(num_rows)]
+    umur_widgets = [st.selectbox(f'UMUR_IR {i+1}:', df3['UMUR_KSH'].unique()) for i in range(num_rows)]
 
 with col2:
-    jantina_widgets = [st.selectbox(f'JANTINA {i+1}:', df3['JANTINA'].unique()) for i in range(num_rows)]
+    jantina_widgets = [st.selectbox(f'JANTINA_IR {i+1}:', df3['JANTINA'].unique()) for i in range(num_rows)]
 
 
 # Button to trigger data generation
-generate_data_button = st.button("Generate Data")
+generate_data_button = st.button("Jana Data")
 
 # Function to generate data rows based on selected values
 def generate_data_rows():
@@ -167,15 +158,15 @@ if generate_data_button:
 
 
 # Button to trigger prediction
-predict_button = st.button("Predict Generated Data")
+predict_button = st.button("Predict Data")
 
 # Function to predict generated data
 def predict_generated_data():
     new_data = generate_data_rows()
     predictions = tuned_gbm.predict(new_data)
     total_pakw = predictions.sum()
-    st.write("Predicted PAKW for Generated Data:", predictions)
-    st.write("Total PAKW for Generated Data:", total_pakw)
+    st.write("Predicted PAKW for Individual:", predictions)
+    st.write("Total PAKW:", total_pakw)
 
 
 # Check if the predict button is clicked
