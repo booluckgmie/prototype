@@ -1,4 +1,4 @@
-Company Reg Number,Trade_Discipline,Category,Blue_White Collar,Existing Sabahan,Existing Sarawakian,Existing Others,Total Existing Manpower,Anticipated Manpower
+Company Reg Number,Trade_Discipline,Category,Blue_White Collar,Existing Sabahan,Existing Sarawakian,Existing TRG, Existing Others,Total Existing Manpower,Anticipated Manpower
 NG230,IHIPHP,HBJB,,8,97,0,7,0
 NG230,LUHHHI,IUGUOHB,,8,0,7,0,7
 NG123,UHOUH,JHOH,,8,0,7,0,7
@@ -6,26 +6,17 @@ NG123,HBJLB,JKNJL,,9,5,0,8,2
 jhghg7687,kuhuh,khjnb,,9,6,0,6,3
 jhghg7687,jbkjh,lihlih,,6,3,7,3,8
 hbhk878,hlkjnkj,jhjln,,7,9,69,6,9
-
 hlkj87987,painter,blue,,69,54,9,5,9
 hlkj87987,blaster,blue,,68,9,6,9,5
-
 lknkln,s2,,6,9,76,9,0,8
 lknkln,q3,,8,5,9,6,9,6
-
 uguoh,lknkn,,7,9,7,9,7,0
 uguoh,ijijip,,9,6,9,6,0,6
-
 ugkugu,hkhb,,8,6,7,0,8,9
-
 uhouih,khgkljbl,White Collar,Sub-con,7,79,7,90,7
 uhouih,yigugbuj,Blue Collar,Sub-con,5,8,45,98,6
-
 LV001,scafffolder,Blue Collar,Sub-con,0,0,0,6,0
 LV001,,Blue Collar,Sub-con,0,0,0,0,0
-
 LV001,scafffolder,Blue Collar,Sub-con,0,0,0,6,0
-
 CLV001,iguuo,Blue Collar,Sub-con,0,0,0,0,0
-
-BCLV001,yiguui,Blue Collar,Sub-con,7,9,76,0,6,90,6
+BCLV001,yiguui,Blue Collar,Sub-con,7,9,76,0,6
