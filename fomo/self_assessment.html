@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOMO Self-Evaluation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        select {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>FOMO Self-Evaluation</h1>
+    <form id="fomoQuiz">
+        <div class="question">
+            <label for="q1">1. How often do you check social media?</label>
+            <select id="q1">
+                <option value="0">Rarely</option>
+                <option value="1">A few times a day</option>
+                <option value="2">Every hour</option>
+                <option value="3">Almost constantly</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="q2">2. How anxious do you feel when you can't check your phone?</label>
+            <select id="q2">
+                <option value="0">Not at all</option>
+                <option value="1">Slightly anxious</option>
+                <option value="2">Moderately anxious</option>
+                <option value="3">Very anxious</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="q3">3. How often do you compare your life to others on social media?</label>
+            <select id="q3">
+                <option value="0">Never</option>
+                <option value="1">Occasionally</option>
+                <option value="2">Frequently</option>
+                <option value="3">Always</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="q4">4. How often do you feel the need to share your experiences online?</label>
+            <select id="q4">
+                <option value="0">Rarely</option>
+                <option value="1">Sometimes</option>
+                <option value="2">Often</option>
+                <option value="3">Always</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="q5">5. How often do you feel you're missing out when you see friends' posts?</label>
+            <select id="q5">
+                <option value="0">Rarely</option>
+                <option value="1">Sometimes</option>
+                <option value="2">Often</option>
+                <option value="3">Always</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="q6">6. How difficult is it for you to decline social invitations?</label>
+            <select id="q6">
+                <option value="0">Not difficult at all</option>
+                <option value="1">Somewhat difficult</option>
+                <option value="2">Very difficult</option>
+                <option value="3">Extremely difficult</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="q7">7. How often do you feel the need to be constantly connected online?</label>
+            <select id="q7">
+                <option value="0">Rarely</option>
+                <option value="1">Sometimes</option>
+                <option value="2">Often</option>
+                <option value="3">Always</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="q8">8. How often do you feel envious of others' posts or experiences?</label>
+            <select id="q8">
+                <option value="0">Rarely</option>
+                <option value="1">Sometimes</option>
+                <option value="2">Often</option>
+                <option value="3">Always</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="q9">9. How often do you feel stressed about keeping up with social media?</label>
+            <select id="q9">
+                <option value="0">Rarely</option>
+                <option value="1">Sometimes</option>
+                <option value="2">Often</option>
+                <option value="3">Always</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="q10">10. How often do you prioritize online activities over real-life interactions?</label>
+            <select id="q10">
+                <option value="0">Rarely</option>
+                <option value="1">Sometimes</option>
+                <option value="2">Often</option>
+                <option value="3">Always</option>
+            </select>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('fomoQuiz').addEventListener('submit', function(e) {
+            e.preventDefault();
+            let total = 0;
+            for (let i = 1; i <= 10; i++) {
+                total += parseInt(document.getElementById('q' + i).value);
+            }
+            let result = '';
+            if (total <= 10) {
+                result = "Low FOMO: You seem to have a healthy relationship with social media and digital connectivity. Keep up the good work! Suggestion: Continue to prioritize real-life experiences and maintain your balanced approach to social media use.";
+            } else if (total <= 20) {
+                result = "Moderate FOMO: You may be experiencing some FOMO, but it's not severe. Suggestion: Try to be more mindful of your social media use. Set specific times for checking your accounts and focus on enjoying your present moments.";
+            } else {
+                result = "High FOMO: You appear to be experiencing significant FOMO. This may be negatively impacting your well-being. Suggestion: Consider talking to a mental health professional. Try implementing digital detoxes and focus on cultivating real-life relationships and experiences.";
+            }
+            document.getElementById('result').innerHTML = "<h2>Your FOMO Score: " + total + "/30</h2><p>" + result + "</p>";
+        });
+    </script>
+</body>
+</html>
