@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Critical Trades & Total Manpower Assessment Exercise 2024 V5.0</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 1100px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        input, select, button {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .add-button {
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            border: none; /* No border */
+            padding: 10px 20px; /* Padding for the button */
+            text-align: center; /* Center text */
+            text-decoration: none; /* No underline */
+            display: inline-block; /* Inline-block for proper spacing */
+            font-size: 16px; /* Font size */
+            margin: 4px 2px; /* Margin for spacing */
+            cursor: pointer; /* Pointer cursor on hover */
+            border-radius: 5px; /* Rounded corners */
+        }
+        
+        .submit-button {
+            background-color: #f44336; /* Red background */
+            color: white; /* White text */
+            border: none; /* No border */
+            padding: 10px 20px; /* Padding for the button */
+            text-align: center; /* Center text */
+            text-decoration: none; /* No underline */
+            display: inline-block; /* Inline-block for proper spacing */
+            font-size: 16px; /* Font size */
+            margin: 4px 2px; /* Margin for spacing */
+            cursor: pointer; /* Pointer cursor on hover */
+            border-radius: 5px; /* Rounded corners */
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .nav-tabs {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            background-color: #f1f1f1;
+            border-bottom: 1px solid #ccc;
+        }
+        .nav-tabs li {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .nav-tabs li.active {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-bottom: none;
+        }
+        .tab-content {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Critical Trades & Total Manpower Assessment Exercise 2024</h2>
+<center><img src="https://raw.githubusercontent.com/booluckgmie/prototype/refs/heads/main/wfvendor/util/petLogo.png" alt="Example_inputWF" width="45%"/>
+    <h4>PETRONAS L&R Vendors</h4></center>
+<div class="container">
+    <p>As part of PETRONAS’ ongoing efforts to ensure effective project execution and a more streamlined OGSE manpower engagements, contractors are required to 
+    provide accurate and up-to-date information on their total manpower allocation across various trades. This declaration, covering all current contracts with 
+    PETRONAS, is essential for monitoring workforce capabilities, ensuring compliance with industry standards, and facilitating project coordination. Contractors are 
+    requested to complete the form below with accurate manpower details and relevant contract information  to ensure efficient collaboration and resource optimization.
+    </p>
+</div>
+
+<div class="container">
+    <ul class="nav-tabs">
+        <li class="active" data-tab="contractor-info"><strong>Section A: Contractor Information</strong></li>
+        <li data-tab="contract-info"><strong>Section B: List of Contracts in Hand</strong></li>
+        <li data-tab="manpower-info"><strong>Section C: Total Workforce Declaration</strong></li>
+    </ul>
+
+    <div id="contractor-info" class="tab-content active">
+        <h3>Section A: Contractor Information</h3>
+        <form id="contractorForm">
+            <input type="text" id="contractorName" placeholder="Enter Contractor Name" required>
+            <input type="text" id="companyRegNumber" placeholder="Enter Company Registration Number" required>
+            <input type="text" id="contactPersonName" placeholder="Enter Contact Person Name" required>
+            <input type="text" id="designation" placeholder="Enter Designation" required>
+            <input type="email" id="email" placeholder="Enter Email Address" required>
+            <input type="date" id="date" required>
+        </form>
+        <button id="nextToContract" class="submit-button">Next</button>
+    </div>
+
+    <div id="contract-info" class="tab-content">
+        <h3>Section B: List of Contracts in Hand</h3>
+        <p>Kindly provide a list of current active contracts in hand.</p>
+        <table id="contractTable">
+            <thead>
+                <tr>
+                    <th>Contract Ref</th>
+                    <th>Effective Date</th>
+                    <th>Expiry Date</th>
+                    <th>Description</th>
+                    <th>OPU/PAC</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" placeholder="Contract Ref" required></td>
+                    <td><input type="date" id="effectiveDate" required></td>
+                    <td><input type="date" id="expiryDate" required></td>
+                    <td><input type="text" placeholder="Description" required></td>
+                    <td><input type="text" placeholder="OPU/PAC" required></td>
+                    <td><button class="deleteBtn">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="addContractBtn" class="add-button">+ Add Contract</button>
+        <button id="nextToManpower" class="submit-button">Next</button>
+    </div>
+    
+
+    <div id="manpower-info" class="tab-content">
+        <h3>Section C: Total Workforce Declaration</h3>
+        <p>Kindly provide the following details for both existing and anticipated manpower to support the aforementioned contract(s):
+        </p>
+        <table id="manpowerTable">
+            <thead>
+                <tr>
+                    <th>Trade/Discipline</th>
+                    <th>Blue/White Collar</th>
+                    <th>Category</th>
+                    <th>Existing Sabahan</th>
+                    <th>Existing Sarawakian</th>
+                    <th>Existing Others (MY)</th>
+                    <th>Existing Others (Non MY)</th>
+                    <th>Total Existing Manpower</th>
+                    <th>Anticipated Manpower</th>
+                    <th>When Needed</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <button id="addManpowerBtn" class="add-button">+ Add Manpower</button>
+        <button id="submitManpower" class="submit-button">Submit</button>
+        
+        <div>
+            <h3>-- EXAMPLE --</h3>
+            <img src="https://raw.githubusercontent.com/booluckgmie/prototype/refs/heads/main/wfvendor/util/example_wfdata.png" alt="Example_inputWF" width="100%" /> <!-- Replace with actual image source -->
+            <p>
+                The above is provided as an example only. Please complete the detailed manpower information for this section.
+            </p>
+            <p>
+                Note:
+                <ol>
+                    <li>Job or position title. For managerial roles and above, please choose the "Top Management" option.</li>
+                    <li>Blue collar typically refers to workers involved in manual labor and skilled trades, such as drilling, maintenance, and construction. While white collar typically refers to employees in professional or administrative roles, including management, engineering, finance, and corporate support functions.</li>
+                    <li>Select "Permanent" for full-time employees, "Contract" for those on a contractual, temporary, or protege basis, select "Sub-con" for manpower assigned or to be assigned to your subcontracting company for executing the specified contracts.</li>
+                    <li>Count of manpower who are Sabahan.</li>
+                    <li>Count of manpower who are Sarawakian.</li>
+                    <li>Count of Malaysian manpower who are neither Sabahan nor Sarawakian.</li>
+                    <li>Count of manpower who are non-Malaysian citizens.</li>
+                    <li>Count of the company's current or potential vacancies by position/trade.</li>
+                    <li>Hiring plan based on when the expected timeline to hire. Select "Urgent" if actively recruiting. Select the quarter per drop-down list if it falls within that time frame, or select "beyond 2026" for future hire.</li>
+                </ol>
+            </p>
+        </div>
+        
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        // Tab functionality
+        $('.nav-tabs li').click(function () {
+            $('.nav-tabs li').removeClass('active');
+            $(this).addClass('active');
+            $('.tab-content').removeClass('active');
+            $('#' + $(this).data('tab')).addClass('active');
+        });
+
+        // Next buttons with data submission
+        $('#nextToContract').click(function () {
+            if (submitContractorInfo()) {
+                $('.nav-tabs li[data-tab="contract-info"]').click();
+            }
+        });
+
+        $('#nextToManpower').click(function () {
+            if (submitContractInfo()) {
+                $('.nav-tabs li[data-tab="manpower-info"]').click();
+            }
+        });
+
+        $('#submitManpower').click(function () {
+            submitManpowerInfo();
+        });
+
+        // Add Contract to Table 1
+        $('#addContractBtn').on('click', function () {
+            addContractRow();
+        });
+
+        // Add Manpower to Table 2
+        $('#addManpowerBtn').on('click', function () {
+            addManpowerRow();
+        });
+
+        function addContractRow(data) {
+            const newRow = $('<tr>');
+            const fields = ['contractRef', 'effectiveDate', 'expiryDate', 'description', 'opuPac'];
+
+            fields.forEach(field => {
+                newRow.append($('<td>').append($('<input>').attr('type', 'text').val(data ? data[field] : '')));
+            });
+
+            newRow.append($('<td>').append(
+                $('<button>').text('Edit').click(function () { editRow($(this).closest('tr')); }),
+                $('<button>').text('Remove').click(function () { $(this).closest('tr').remove(); })
+            ));
+
+            $('#contractTable tbody').append(newRow);
+        }
+
+        function addManpowerRow(data) {
+            const newRow = $('<tr>');
+            const fields = [
+                'tradeDiscipline', 
+                'blueWhiteCollar', 
+                'category',
+                'sabahan', 
+                'sarawakian', 
+                'othersMY',
+                'othersNonMY',
+                'totalManpower', 
+                'anticipatedManpower',
+                'whenNeeded',
+            ];
+
+            // Add the first field (tradeDiscipline) as a text input
+            newRow.append($('<td>').append($('<input>').attr('type', 'text').val(data ? data['tradeDiscipline'] : '')));
+
+            // Add dropdown for Blue/White Collar as the second column
+            newRow.append($('<td>').append(
+                $('<select>').attr('name', 'blueWhiteCollar').append(
+                    $('<option>').val('Blue Collar').text('Blue Collar'),
+                    $('<option>').val('White Collar').text('White Collar')
+                ).val(data ? data['blueWhiteCollar'] : 'Blue Collar')
+            ));
+
+            // Add dropdown for Category
+            newRow.append($('<td>').append(
+                $('<select>').attr('name', 'category').append(
+                    $('<option>').val('Contract').text('Contract'),
+                    $('<option>').val('Sub-con').text('Sub-con'),
+                    $('<option>').val('Permanent').text('Permanent')
+                ).val(data ? data['category'] : 'Contract')
+            ));
+
+            // Add remaining fields as text inputs
+            fields.forEach(field => {
+                if (field !== 'blueWhiteCollar' && field !== 'category' && field !== 'tradeDiscipline') {
+                    if (field === 'whenNeeded') {
+                        // Use a text input for "When Needed" to allow string values
+                        newRow.append($('<td>').append($('<input>').attr('type', 'text').val(data ? data[field] : '')));
+                    } else {
+                        newRow.append($('<td>').append($('<input>').attr('type', 'number').val(data ? data[field] : '0')));
+                    }
+                }
+            });
+            // Add Edit and Remove buttons
+            newRow.append($('<td>').append(
+                $('<button>').text('Edit').click(function () { editRow($(this).closest('tr')); }),
+                $('<button>').text('Remove').click(function () { $(this).closest('tr').remove(); })
+            ));
+
+            // Append the new row to the table body
+            $('#manpowerTable tbody').append(newRow);
+        }
+
+        function editRow(row) {
+            row.find('input, select').prop('disabled', false);
+        }
+
+        function getContractorInfo() {
+            const info = {
+                contractorName: $('#contractorName').val(),
+                companyRegNumber: $('#companyRegNumber').val(),
+                contactPersonName: $('#contactPersonName').val(),
+                designation: $('#designation').val(),
+                email: $('#email').val(),
+                date: $('#date').val(),
+            };
+
+            if (Object.values(info).some(value => value === "")) {
+                alert("Please complete all fields in the contractor information form.");
+                return null;
+            }
+
+            return info;
+        }
+
+        function getTableData(tableId) {
+            const data = [];
+            $(tableId + ' tbody tr').each(function () {
+                const rowData = {};
+                $(this).find('input, select').each(function () {
+                    const header = $(this).closest('table').find('th').eq($(this).parent().index()).text();
+                    rowData[header] = $(this).val();
+                });
+                data.push(rowData);
+            });
+            return data;
+        }
+
+        function submitContractorInfo() {
+            const contractorInfo = getContractorInfo();
+            if (!contractorInfo) return false;
+
+            const content = createContractorInfoCSV(contractorInfo);
+            updateGitHubFile('contractor_details.csv', content);
+            return true;
+        }
+
+        function submitContractInfo() {
+            const contractorInfo = getContractorInfo();
+            if (!contractorInfo) return false;
+
+            const contractData = getTableData('#contractTable');
+            if (contractData.length === 0) {
+                alert("Please add at least one contract.");
+                return false;
+            }
+
+            const content = createContractDataCSV(contractorInfo, contractData);
+            updateGitHubFile('contract_details.csv', content);
+            return true;
+        }
+
+        function submitManpowerInfo() {
+            const contractorInfo = getContractorInfo();
+            if (!contractorInfo) return;
+
+            const manpowerData = getTableData('#manpowerTable');
+            if (manpowerData.length === 0) {
+                alert("Please add at least one manpower entry.");
+                return;
+            }
+
+            const content = createManpowerDataCSV(contractorInfo, manpowerData);
+            updateGitHubFile('manpower_details.csv', content);
+        }
+
+        function createContractorInfoCSV(info) {
+            return `${Object.values(info).join(',')}\n`;
+        }
+
+        function createContractDataCSV(info, data) {
+            let csv = '';
+            data.forEach(row => {
+                csv += `${info.companyRegNumber},${row['Contract Ref']},${row['Effective Date']},${row['Expiry Date']},${row['Description']},${row['OPU/PAC']}\n`;
+            });
+            return csv;
+        }
+
+        function createManpowerDataCSV(info, data) {
+            let csv = '';
+            data.forEach(row => {
+                csv += `${info.companyRegNumber},${row['Trade/Discipline']},${row['Blue/White Collar']},${row['Category']},${row['Existing Sabahan']},${row['Existing Sarawakian']},${row['Existing Others (MY)']},${row['Existing Others (Non MY)']},${row['Total Existing Manpower']},${row['Anticipated Manpower']},\"${row['When Needed']}\"\n`;
+            });
+            return csv;
+        }
+
+
+        function updateGitHubFile(filename, newContent) {
+            const GITHUB_API_URL = 'https://api.github.com/repos/booluckgmie/prototype/contents/wfvendor/';
+            const GITHUB_TOKEN = '';
+            const url = GITHUB_API_URL + filename;
+
+            fetch(url, {
+                method: 'GET',
+                headers: {
+                    'Authorization': `token ${GITHUB_TOKEN}`,
+                    'Accept': 'application/vnd.github.v3+json'
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    const previousContent = atob(data.content);
+                    const updatedContent = previousContent + '\n' + newContent;
+
+                    const encodedContent = btoa(unescape(encodeURIComponent(String(updatedContent))));
+
+                    return fetch(url, {
+                        method: 'PUT',
+                        headers: {
+                            'Authorization': `token ${GITHUB_TOKEN}`,
+                            'Content-Type': 'application/json',
+                            'Accept': 'application/vnd.github.v3+json'
+                        },
+                        body: JSON.stringify({
+                            message: 'Append contractor data',
+                            content: encodedContent,
+                            sha: data.sha
+                        })
+                    });
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Success:', data);
+                    alert('Data appended to GitHub successfully!');
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Error appending data to GitHub: ' + error.message);
+                });
+        }
+    });    
+</script>
+
+</body>
+</html>
